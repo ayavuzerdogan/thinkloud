@@ -273,6 +273,8 @@ ul.tips {
 	background-image: url('../images/header-bg.png');
 	background-repeat: no-repeat;
 	height: 64px;
+	/*position: fixed;*/
+	z-index: 99999;
 }
 #skip-link {
   left: 50%;
