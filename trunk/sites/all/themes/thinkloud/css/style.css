@@ -273,9 +273,13 @@ ul.tips {
 	background-image: url('../images/header-bg.png');
 	background-repeat: no-repeat;
 	height: 64px;
-	/*position: fixed;*/
+	position: fixed;
 	z-index: 99999;
 }
+#fake-header{
+	height: 64px;
+}
+
 #skip-link {
   left: 50%;
   margin-left: -5.25em;
@@ -1685,6 +1689,7 @@ div.admin-panel .description {
 	left: 20px;
 	position: relative;
 	top: 25px;
+	width:25px;
 }
 .audio-download{
 	display: none;
