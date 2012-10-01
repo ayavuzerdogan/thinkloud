@@ -1678,3 +1678,12 @@ div.admin-panel .description {
 .field-name-field-record{
 	position: relative;
 }
+/*custom player style*/
+.ui360{
+	left: 20px;
+	position: relative;
+	top: 25px;
+}
+.audio-download{
+	display: none;
+}
