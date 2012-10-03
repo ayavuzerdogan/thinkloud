@@ -1688,9 +1688,17 @@ div.admin-panel .description {
 .ui360{
 	left: 20px;
 	position: relative;
-	top: 25px;
+	top: 45px;
 	width:25px;
 }
 .audio-download{
+	display: none;
+}
+
+.sidebar-first{
+	color: #68696B;
+}
+
+.field-label{
 	display: none;
 }
