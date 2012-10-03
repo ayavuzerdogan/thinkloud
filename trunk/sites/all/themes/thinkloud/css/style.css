@@ -645,7 +645,7 @@ h1#page-title {
 }
 #content .meta{
 	position: relative;
-	top: 25px;
+	top: 33px;
 	left: 80px;
 }
 .submitted .user-picture img {
@@ -870,6 +870,9 @@ ul.links {
   color: #c0c0c0;
   color: rgba(255, 255, 255, 0.65);
   font-size: 0.857em;
+	background: url("../images/footer.png");
+	background-repeat: no-repeat;
+	height: 235px;
 }
 #footer-wrapper a {
   color: #fcfcfc;
