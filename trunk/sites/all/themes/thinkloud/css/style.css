@@ -643,7 +643,7 @@ h1#page-title {
   color: #68696b;
   margin-bottom: -5px;
 }
-#content .meta{
+#content .node-teaser .meta{
 	position: relative;
 	top: 33px;
 	left: 80px;
@@ -680,7 +680,11 @@ h1#page-title {
   white-space: nowrap;
 }
 .link-wrapper {
-  text-align: right;
+	display: none;
+	/*text-align: left;*/
+	/*position: relative;*/
+	/*top: -41px;*/
+	/*left: 100px;*/
 }
 .field-type-image img,
 .user-picture img {
@@ -1684,18 +1688,23 @@ div.admin-panel .description {
 #footer-wrapper .poll .bar .foreground {
   background-color: #ddd;
 }
+/*
+***
+****
 /*custom node style*/
-.field-name-field-record{
+.node-teaser .field-name-field-record{
 	position: relative;
 }
 /*custom player style*/
-.ui360{
-	left: 20px;
-	position: relative;
-	top: 45px;
-	width:25px;
+.node-teaser .ui360{
+	/*left: 20px;*/
+	/*position: relative;*/
+	/*top: 45px;*/
+	/*width:25px;*/
+	float: left;
+	top: -13px;
 }
-.audio-download{
+.node-teaser .audio-download{
 	display: none;
 }
 
@@ -1703,8 +1712,24 @@ div.admin-panel .description {
 	color: #68696B;
 }
 
-.field-label,
+.node-teaser .field-label
 /*#sm2-container*/
 {
 	display: none;
+}
+
+.node-teaser .field-type-file{
+	left: 14px;
+	position: relative;
+	top: 58px;
+}
+
+#sm2-container{
+	position: absolute; width: 6px; height: 6px; top: -9999px; left: -9999px
+}
+
+.node-teaser .fivestar-outline{
+	position: relative;
+	top: 30px;
+	left: 175px;
 }
