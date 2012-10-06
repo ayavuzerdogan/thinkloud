@@ -155,3 +155,7 @@ function thinkloud_field__taxonomy_term_reference($variables) {
 
   return $output;
 }
+
+function thinkloud_preprocess_user_profile(&$variables) {
+//	print_r($variables); die();
+}

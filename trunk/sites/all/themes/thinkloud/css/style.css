@@ -588,7 +588,22 @@ h1#site-name {
 
 .content {
   margin-top: 10px;
+	/*width:650px;*/
+	/*float: left;*/
 }
+
+#first-column-content{
+	/*margin-top: 10px;*/
+	width:300px;
+	float: left;
+}
+
+#second-column-content{
+	margin-top: 100px;
+	width:300px;
+	float: left;
+}
+
 h1#page-title {
   font-size: 2em;
   line-height: 1;
