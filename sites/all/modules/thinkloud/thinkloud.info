@@ -1,0 +1,9 @@
+name = thinkloud
+description = Provides a specific thinkloud features.
+package = thinkloud
+core = 7.x
+
+version = "7.x-alpha-0.1"
+core = "7.x"
+project = "thinkloud"
+datestamp = "1330372849"

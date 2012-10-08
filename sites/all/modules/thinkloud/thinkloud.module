@@ -1,0 +1,30 @@
+<? /*
+  * thinkloud module
+  * Sitdikov R.M.
+  */
+require_once('constants.php');
+
+function thinkloud_block_info(){
+	$blocks[USER_RECORDS_BLOCK] = array(
+		'info' => 'User\'s records',
+		'status' => 1,
+		'region' => 'sidebar_first',
+		'cache' => DRUPAL_NO_CACHE,
+	);
+	return $blocks;
+}
+
+function thinkloud_block_view($delta = '') {
+	$block = array();
+	switch ($delta) {
+		case USER_RECORDS_BLOCK:
+			$block['subject'] = '';
+			$block['content'] = get_user_records();
+			break;
+	}
+	return $block;
+}
+
+function get_user_records(){
+	return 'atata!';
+}
