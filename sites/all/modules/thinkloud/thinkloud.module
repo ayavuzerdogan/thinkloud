@@ -26,5 +26,14 @@ function thinkloud_block_view($delta = '') {
 }
 
 function get_user_records(){
-	return 'atata!';
+	$uid = arg(1);
+	if (is_numeric($uid)){
+		$result=db_select('node', 'n')
+			->fields('n', array('nid'))
+			->condition('`type`', 'record')
+			->condition('status', '1')
+			->condition('uid', $uid)
+			->execute()->fetchAllKeyed();
+		return node_view_multiple(node_load_multiple(array_keys($result)), 'teaser');
+	}
 }
