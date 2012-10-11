@@ -33,7 +33,12 @@ function get_user_records(){
 			->condition('`type`', 'record')
 			->condition('status', '1')
 			->condition('uid', $uid)
-			->execute()->fetchAllKeyed();
-		return node_view_multiple(node_load_multiple(array_keys($result)), 'teaser');
+			->execute()->fetchAll();
+		$nodes = array();
+		foreach ($result as $node){
+			$nodes[] = $node->nid;
+		}
+		if (!empty($nodes)) return node_view_multiple(node_load_multiple($nodes), 'teaser');
+		else return 'No records yet';
 	}
 }

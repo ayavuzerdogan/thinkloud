@@ -274,7 +274,7 @@ ul.tips {
 	background-repeat: no-repeat;
 	height: 64px;
 	position: fixed;
-	z-index: 99999;
+	z-index: 1;
 }
 #fake-header{
 	height: 64px;
@@ -1727,10 +1727,11 @@ div.admin-panel .description {
 	color: #68696B;
 }
 
-.node-teaser .field-label
-/*#sm2-container*/{
-	display: none;
-}
+/*.node-teaser .field-label*/
+/*#sm2-container*/
+/*{*/
+	/*display: none;*/
+/*}*/
 
 .node-teaser .field-type-file{
 	left: 14px;
