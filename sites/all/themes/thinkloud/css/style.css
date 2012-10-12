@@ -608,14 +608,19 @@ h1#page-title {
   font-size: 2em;
   line-height: 1;
 }
+
 #content h2 {
   margin-bottom: 2px;
   font-size: 1.429em;
   line-height: 1.4;
-	top: 20px;
+	/*top: 20px;*/
 	position: relative;
 	left: 120px;
 }
+#content .node-teaser h2 {
+	top:20px;
+}
+
 .node .content {
   font-size: 1.071em;
 }
