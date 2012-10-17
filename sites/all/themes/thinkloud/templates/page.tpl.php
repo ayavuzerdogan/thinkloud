@@ -88,11 +88,9 @@
 <div id="page-wrapper"><div id="page">
 
   <div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
-    <?php if ($logo): ?>
-<!--      <a href="--><?php //print $front_page; ?><!--" title="--><?php //print t('Home'); ?><!--" rel="home" id="logo">-->
-        <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
-<!--      </a>-->
-    <?php endif; ?>
+      <a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
+        <img src="/sites/all/themes/thinkloud/logo.png" alt="<?php print t('Home'); ?>" />
+      </a>
 
     <?php if ($site_name || $site_slogan): ?>
       <div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
@@ -153,17 +151,28 @@
             'class' => array('element-invisible'),
           ),
         )); ?>
-	      <?php print render($tabs['#primary']); ?>
-      </div> <!-- /#secondary-menu -->
+      </div>
+	  <!-- /#secondary-menu -->
     <?php endif; ?>
 
-  </div></div> <!-- /.section, /#header -->
+	<?php if ($tabs['#primary']):?>
+		<div id="primary-tabs">
+			<ul>
+			<?php print render($tabs['#primary']); ?>
+			</ul>
+		</div>
+	<?php endif;?>
+  </div>
+  </div>
+
 	<div id="fake-header"></div>
-  <?php if ($messages): ?>
-    <div id="messages"><div class="section clearfix">
-      <?php print $messages; ?>
-    </div></div> <!-- /.section, /#messages -->
-  <?php endif; ?>
+	<?php if ($messages): ?>
+		<div id="messages">
+			<div class="section clearfix">
+				<?php print $messages; ?>
+			</div>
+		</div>
+	<?php endif; ?>
 
   <?php if ($page['featured']): ?>
     <div id="featured"><div class="section clearfix">
@@ -178,9 +187,18 @@
 <!--    --><?php //endif; ?>
 
     <?php if ($page['sidebar_first']): ?>
-      <div id="sidebar-first" class="column sidebar"><div class="section">
-        <?php print render($page['sidebar_first']); ?>
-      </div></div> <!-- /.section, /#sidebar-first -->
+      <div id="sidebar-first" class="column sidebar">
+	      <div class="section">
+		      <?php if ($tabs['#secondary']):?>
+		      <div class="block secondary-tabs">
+			      <ul>
+				      <?php print render($tabs['#secondary']); ?>
+			      </ul>
+		      </div>
+			  <?php endif;?>
+            <?php print render($page['sidebar_first']); ?>
+	      </div>
+      </div>
     <?php endif; ?>
 
     <div id="content" class="column">
