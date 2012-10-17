@@ -2,46 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="2d89b199-df3b-4b02-964f-21e757a116f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/tests/flag.test" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/tests" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag-throbber.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/LICENSE.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.api.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.rules.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag.tokens.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag_actions.info" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag_actions.install" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/flag_actions.module" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.actions.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.admin.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.export.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.features.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.views.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.views_convert.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag.views_default.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag_handler_argument_content_id.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag_handler_field_ops.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag_handler_filter_flagged.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag_handler_relationships.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/includes/flag_plugin_argument_validate_flaggability.inc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/README.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag-admin.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag-admin.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/modules/flag/theme/flag.tpl.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud/template.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php" />
     </list>
     <ignored path="thinkloud.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -63,39 +28,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="layout.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="85" column="23" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.tpl.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="181" column="54" selection-start="7945" selection-end="7945" vertical-scroll-proportion="0.02529762">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/template.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="114" column="31" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="625" column="1" selection-start="11702" selection-end="11702" vertical-scroll-proportion="0.0">
-              <folding>
-                <marker date="1350035400195" expanded="true" signature="34332:34338" placeholder="/*...*/" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="layout.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="102" column="22" selection-start="1711" selection-end="1711" vertical-scroll-proportion="1.277873">
+            <state line="1060" column="30" selection-start="20364" selection-end="20364" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thinkloud.module" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/modules/thinkloud/thinkloud.module">
+      <file leaf-file-name="page--front.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="block.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/block.tpl.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0">
+            <state line="192" column="50" selection-start="8037" selection-end="8037" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -162,8 +134,11 @@
         <option value="$PROJECT_DIR$/sites/all/modules/thinkloud/constants.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/block.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/thinkloud/thinkloud.module" />
-        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/template.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css" />
       </list>
     </option>
   </component>
@@ -171,8 +146,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1606" />
-    <option name="height" value="1066" />
+    <option name="width" value="1393" />
+    <option name="height" value="916" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -601,25 +576,29 @@
       <created>1349899979149</created>
       <updated>1349899979149</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="add block.tpl&#10;&#10;">
+      <created>1350052167117</created>
+      <updated>1350052167117</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1606" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1393" height="916" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32124352" sideWeight="0.18763797" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145756" sideWeight="0.5330688" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32944983" sideWeight="0.67108166" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32124352" sideWeight="0.47571743" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26145756" sideWeight="0.45767197" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32781458" sideWeight="0.0" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -688,16 +667,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="61" selection-end="61" vertical-scroll-proportion="0.02982456" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/images/footer.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/fivestar/images/lock.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -718,25 +687,36 @@
         <state line="1901" column="3" selection-start="62236" selection-end="62236" vertical-scroll-proportion="2.030647" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="625" column="1" selection-start="11702" selection-end="11702" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1350035400195" expanded="true" signature="34332:34338" placeholder="/*...*/" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/modules/thinkloud/thinkloud.module">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="24" column="18" selection-start="494" selection-end="494" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/block.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="2" selection-start="24" selection-end="24" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="23" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="114" column="31" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1060" column="30" selection-start="20364" selection-end="20364" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="192" column="50" selection-start="8037" selection-end="8037" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/thinkloud.info">
@@ -764,9 +744,9 @@
         <state line="6" column="16" selection-start="107" selection-end="107" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="102" column="22" selection-start="1711" selection-end="1711" vertical-scroll-proportion="1.277873">
+        <state line="181" column="54" selection-start="7945" selection-end="7945" vertical-scroll-proportion="0.02529762">
           <folding />
         </state>
       </provider>

@@ -153,6 +153,7 @@
             'class' => array('element-invisible'),
           ),
         )); ?>
+	      <?php print render($tabs); ?>
       </div> <!-- /#secondary-menu -->
     <?php endif; ?>
 
@@ -172,9 +173,9 @@
 
   <div id="main-wrapper" class="clearfix"><div id="main" class="clearfix">
 
-    <?php if ($breadcrumb): ?>
-      <div id="breadcrumb"><?php print $breadcrumb; ?></div>
-    <?php endif; ?>
+<!--    --><?php //if ($breadcrumb): ?>
+<!--      <div id="breadcrumb">--><?php //print $breadcrumb; ?><!--</div>-->
+<!--    --><?php //endif; ?>
 
     <?php if ($page['sidebar_first']): ?>
       <div id="sidebar-first" class="column sidebar"><div class="section">
@@ -195,11 +196,11 @@
 	        </h1>
 	      <?php endif; ?>
 	      <?php print render($title_suffix); ?>
-	      <?php if ($tabs): ?>
-	        <div class="tabs">
-	          <?php print render($tabs); ?>
-	        </div>
-	      <?php endif; ?>
+<!--	      --><?php //if ($tabs): ?>
+<!--	        <div class="tabs">-->
+<!--	          --><?php //print render($tabs); ?>
+<!--	        </div>-->
+<!--	      --><?php //endif; ?>
 	      <?php print render($page['help']); ?>
 	      <?php if ($action_links): ?>
 	        <ul class="action-links">
