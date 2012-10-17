@@ -270,8 +270,8 @@ ul.tips {
 
 /* ------------------ Header ------------------ */
 #header{
-	background-image: url('../images/header-bg.png');
-	background-repeat: no-repeat;
+	/*background-image: url('../images/header-bg.png');*/
+	/*background-repeat: no-repeat;*/
 	height: 64px;
 	position: fixed;
 	z-index: 1;
