@@ -112,7 +112,7 @@ function thinkloud_preprocess_node(&$variables) {
   if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
     $variables['classes_array'][] = 'node-full';
   }
-	$variables['submitted'] = 'Submitted by <a href="/user/'.$variables['uid'].'">'.$variables['name'].'</a>';
+	$variables['submitted'] = 'by <a href="/user/'.$variables['uid'].'">'.$variables['name'].'</a>';
 }
 
 /**

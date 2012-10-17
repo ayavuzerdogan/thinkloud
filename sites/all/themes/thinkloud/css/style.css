@@ -615,10 +615,11 @@ h1#page-title {
   line-height: 1.4;
 	/*top: 20px;*/
 	position: relative;
-	left: 120px;
+	/*left: 120px;*/
 }
 #content .node-teaser h2 {
-	top:20px;
+	top:61px;
+	left: 73px;
 }
 
 .node .content {
@@ -665,8 +666,8 @@ h1#page-title {
 }
 #content .node-teaser .meta{
 	position: relative;
-	top: 33px;
-	left: 80px;
+	top: -7px;
+	left: 134px;
 }
 .submitted .user-picture img {
   float: left; /* LTR */
@@ -1015,6 +1016,35 @@ ul.links {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin-bottom: 20px;
 }
+#secondary-menu ul.primary{
+	border-bottom: none;
+	height: auto;
+	line-height: normal;
+	list-style: none outside none;
+	margin: 0;
+	padding: 0 0 0 0;
+	white-space: nowrap;
+}
+
+#secondary-menu ul.primary li {
+	display: block;
+}
+
+#secondary-menu ul.primary li a {
+	background-color: transparent;
+	border: none;
+	height: auto;
+	margin-right: 0.5em;
+	padding: 0px 1em;
+	text-decoration: none;
+}
+
+#secondary-menu ul.primary li.active a {
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+}
+
 .tabs ul.primary {
   padding: 0 3px;
   margin: 0;
