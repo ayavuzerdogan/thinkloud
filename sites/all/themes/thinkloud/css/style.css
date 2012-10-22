@@ -899,10 +899,10 @@ h1#page-title {
 #footer-wrapper {
   color: #c0c0c0;
   color: rgba(255, 255, 255, 0.65);
-  font-size: 0.857em;
+  /*font-size: 0.857em;*/
 	background: url("../images/footer.png");
 	background-repeat: no-repeat;
-	height: 235px;
+	/*height: 235px;*/
 }
 #footer-wrapper a {
   color: #fcfcfc;
@@ -976,13 +976,17 @@ h1#page-title {
   text-decoration: none;
 }
 #footer {
-  letter-spacing: 0.2px;
-  margin-top: 30px;
+  /*letter-spacing: 0.2px;*/
+  /*margin-top: 30px;*/
   /*border-top: 1px solid #555;*/
   /*border-color: rgba(255, 255, 255, 0.15);*/
 }
+
+#footer a{
+	text-decoration: none;
+}
 #footer .region {
-  margin-top: 20px;
+  /*margin-top: 20px;*/
 }
 #footer .block {
   clear: both;
