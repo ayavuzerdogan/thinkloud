@@ -14,9 +14,8 @@ body,
 #featured div.section,
 #messages div.section,
 #main,
-#triptych,
-#footer-columns,
-#footer {
+#triptych
+{
   width: 850px;
   margin-left: auto;
   margin-right: auto;
@@ -89,7 +88,8 @@ body,
   width: 280px;
 }
 #footer-wrapper {
-  padding: 35px 5px 30px;
+  padding: 0 5px;
+	height: 269px;
 }
 .region-footer-firstcolumn,
 .region-footer-secondcolumn,
@@ -99,7 +99,8 @@ body,
   width: 220px;
 }
 #footer {
-  width: 850px;
-  min-width: 850px;
-	padding-top:177px;
+  /*width: 850px;*/
+  /*min-width: 850px;*/
+	padding-top:213px;
+	padding-left: 357px;
 }
