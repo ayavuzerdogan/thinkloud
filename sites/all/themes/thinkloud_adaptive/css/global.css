@@ -1,2 +1,65 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+/*custom!*/
+body{
+	font-family: "tw cen mt";
+	font-size: 1.2em;
+}
+
+a,
+a:link,
+a:visited{
+	text-decoration: none;
+}
+a:hover,
+a.active{
+	color: #243546;
+	background-color: #cef9ff;
+}
+
+#breadcrumb{
+	display: none;
+}
+/*user zone*/
+#zone-user{
+	height: 60px;
+	background-color: #243546;
+}
+
+	#zone-user a,
+	#zone-user a:link,
+	#zone-user a:visited{
+		color: #cef9ff;
+	}
+
+	#zone-user a:hover,
+	#zone-user a.active{
+		color: #243546;
+		background-color: #cef9ff;
+	}
+
+	/*user menu*/
+	.menu-name-menu-user-custom-menu ul li.leaf,
+	.menu-name-menu-user-custom-menu ul li.expanded{
+		float: left;
+		display:block;
+		list-style-type: none;
+		list-style-image: none;
+	}
+
+		.menu-name-menu-user-custom-menu ul li.leaf a,
+		.menu-name-menu-user-custom-menu ul li.expanded a{
+			display: block;
+		}
+
+		.menu-name-menu-user-custom-menu ul li > ul{
+			display: none;
+			position:absolute;
+			left:0;
+			margin:0 0 0 -1px;
+			padding:0;
+		}
+
+
+
