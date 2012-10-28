@@ -3,8 +3,19 @@
 
 /*custom!*/
 body{
-	font-family: "tw cen mt";
+	/*font-family: "Open Sans Condensed";*/
+	font-family: "PT Sans Narrow";
+	/*font-family: "Ubuntu Condensed";*/
 	font-size: 1.2em;
+	background-image: url('../images/cloud-bg.png');
+	background-color:#cef9ff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	/*font-family: "Open Sans Condensed";*/
+	font-family: "PT Sans Narrow";
+	/*font-family: "Ubuntu Condensed";*/
+	letter-spacing: normal;
 }
 
 a,
@@ -18,48 +29,101 @@ a.active{
 	background-color: #cef9ff;
 }
 
+.tabs{
+	/*display: none;*/
+}
+
 #breadcrumb{
 	display: none;
 }
+
+.region-sidebar-first-inner .block{
+	background-color: #243546;
+	margin-top: 15px;
+	padding: 5px;
+}
+
 /*user zone*/
 #zone-user{
-	height: 60px;
+	/*height: 60px;*/
 	background-color: #243546;
 }
 
 	#zone-user a,
 	#zone-user a:link,
-	#zone-user a:visited{
+	#zone-user a:visited,
+	.region-sidebar-first-inner .block a,
+	.region-sidebar-first-inner .block a:link,
+	.region-sidebar-first-inner .block a:visited,
+	.region-footer-first-inner a{
 		color: #cef9ff;
 	}
 
 	#zone-user a:hover,
-	#zone-user a.active{
+	#zone-user a.active,
+	.region-sidebar-first-inner .block a:hover,
+	.region-sidebar-first-inner .block a.active,
+	.region-footer-first-inner a:hover,
+	.region-footer-first-inner a.active{
 		color: #243546;
 		background-color: #cef9ff;
 	}
 
+	.logo-img{
+		margin: 10px 0 10px 20px;
+	}
+
+	.region-user-second{
+		min-height: 64px;
+	}
+
 	/*user menu*/
-	.menu-name-menu-user-custom-menu ul li.leaf,
-	.menu-name-menu-user-custom-menu ul li.expanded{
+	.menu-block-wrapper ul li.leaf,
+	.menu-block-wrapper ul li.expanded{
 		float: left;
 		display:block;
 		list-style-type: none;
 		list-style-image: none;
 	}
 
-		.menu-name-menu-user-custom-menu ul li.leaf a,
-		.menu-name-menu-user-custom-menu ul li.expanded a{
+		.menu-block-wrapper ul li.leaf a,
+		.menu-block-wrapper ul li.expanded a{
 			display: block;
 		}
 
-		.menu-name-menu-user-custom-menu ul li > ul{
+		.menu-block-wrapper ul li > ul{
 			display: none;
 			position:absolute;
 			left:0;
 			margin:0 0 0 -1px;
 			padding:0;
 		}
+
+/*footer*/
+.region-footer-first{
+	background: url("../images/footer.png");
+	height: 270px;
+}
+
+.region-footer-first-inner{
+	margin-top: 211px;
+}
+
+	.region-footer-first-inner ul li{
+		float: left;
+		list-style: none;
+	}
+
+/*teaser*/
+.node-teaser {
+	margin-bottom: 30px;
+	padding-bottom: 15px;
+	background-image: url("../images/cloud-white-main.png");
+	background-repeat: no-repeat;
+	width: 314px;
+	min-height: 215px;
+	/*height: 168px;*/
+}
 
 
 
