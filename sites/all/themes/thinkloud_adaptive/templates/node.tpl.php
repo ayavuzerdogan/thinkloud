@@ -78,7 +78,7 @@
  * @see template_process()
  */
 ?>
-<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix <?php if (!empty($node->field_mood['und'][0]['tid'])) print 'mood-'.$node->field_mood['und'][0]['tid']?>"<?php print $attributes; ?>>
 
 	<?php print render($title_prefix); ?>
 	<?php if (!$page): ?>
