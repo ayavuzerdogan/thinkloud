@@ -139,7 +139,7 @@ dl.user-profile-category a:hover{
 	    position: relative;
 	    top: -35px;
 	    left: 128px;
-	    max-width:113px;
+	    max-width:125px;
     }
 
     .node-teaser .node-title{
@@ -300,4 +300,14 @@ dl.user-profile-category{
 
 
 
+
+/*mood*/
+/*usual*/
+.node-teaser.mood-4{
+	background-image: url("../images/cloud-white-main.png");
+}
+/*sunny*/
+.node-teaser.mood-5{
+	background-image: url("../images/cloud-white-sunny.png");
+}
 
