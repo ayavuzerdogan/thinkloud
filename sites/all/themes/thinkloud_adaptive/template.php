@@ -49,3 +49,11 @@ function thinkloud_adaptive_html_head_alter(){
 	drupal_add_css('http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700');
 	drupal_add_css('http://fonts.googleapis.com/css?family=Ubuntu+Condensed');
 }
+
+function thinkloud_adaptive_preprocess_page(&$variables){
+	if (isset($variables['page']['content']['content']['content']['system_main']['#account'])) {
+		$acc = $variables['page']['content']['content']['content']['system_main']['#account'];
+		if (empty($acc->field_profile_style)) $acc->field_profile_style['und'][0]['tid'] = 6;
+		$variables['attributes_array']['class'][] = 'profile-style-'.$acc->field_profile_style['und'][0]['tid'];
+	}
+}
