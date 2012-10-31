@@ -298,7 +298,16 @@ dl.user-profile-category{
 	border-right: 1px solid #fff4f4;
 }
 
+#sm2-container{
+	height: 0;
+}
 
+#sm2movie{
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 
 /*mood*/
