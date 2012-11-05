@@ -122,9 +122,13 @@ dl.user-profile-category a:hover{
 	padding-bottom: 15px;
 	background-image: url("../images/cloud-white-main.png");
 	background-repeat: no-repeat;
-	width: 314px;
+	width: 380px;
 	min-height: 215px;
 	/*height: 168px;*/
+}
+
+.audio-download{
+	display: none;
 }
 
 	.node-teaser .user-picture{
@@ -318,5 +322,10 @@ dl.user-profile-category{
 /*sunny*/
 .node-teaser.mood-5{
 	background-image: url("../images/cloud-white-sunny.png");
+}
+
+/*angry*/
+.node-teaser.mood-8{
+	background-image: url("../images/cloud-white-angry.png");
 }
 

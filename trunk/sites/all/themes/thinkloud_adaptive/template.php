@@ -56,4 +56,5 @@ function thinkloud_adaptive_preprocess_page(&$variables){
 		if (empty($acc->field_profile_style)) $acc->field_profile_style['und'][0]['tid'] = 6;
 		$variables['attributes_array']['class'][] = 'profile-style-'.$acc->field_profile_style['und'][0]['tid'];
 	}
+//	print_r($variables); die();
 }
