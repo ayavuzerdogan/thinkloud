@@ -18,6 +18,7 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: normal;
 }
 
+/*links styles*/
 a,
 a:link,
 a:visited{
@@ -31,6 +32,12 @@ dl.user-profile-category a:hover{
 	background-color: #cef9ff;
 }
 
+.node-teaser .link-wrapper a{
+	background-color: transparent;
+}
+
+
+/*tabs styles*/
 .tabs{
 	/*display: none;*/
 }
@@ -389,3 +396,39 @@ dl.user-profile-category{
 		color: #fff;
 		/*background-color: transparent;*/
 	}
+
+	.node-teaser.mood-8 .submitted{
+		left: 73px;
+		top: -24px;
+	}
+
+	.node-teaser.mood-8 .node-title{
+		top: 72px;
+		left:56px;
+	}
+
+	.node-teaser.mood-8 .field-name-field-file{
+		top: 30px;
+	}
+
+/*fun*/
+.node-teaser.mood-9{
+	background-image: url("../images/cloud-white-fun.png");
+}
+
+.node-teaser.mood-9 .link-wrapper{
+	top:0;
+}
+
+/*sadness*/
+.node-teaser.mood-10{
+	background-image: url("../images/cloud-white-rain.png");
+}
+
+.node-teaser.mood-10 a{
+	color: #CEF9FF;
+}
+
+.node-teaser.mood-10 a:hover{
+	color: #fff;
+}
