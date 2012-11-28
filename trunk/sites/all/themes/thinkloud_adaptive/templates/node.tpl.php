@@ -112,12 +112,12 @@
 		}
 		// Only display the wrapper div if there are links.
 		$links = render($content['links']);
-		if ($links):
+		//if ($links):
 	?>
-		<div class="link-wrapper">
-			<?php print $links; ?>
-		</div>
-	<?php endif; ?>
+<!--		<div class="link-wrapper">-->
+<!--			--><?php //print $links; ?>
+<!--		</div>-->
+<!--	--><?php //endif; ?>
 
 	<?php print render($content['comments']); ?>
 

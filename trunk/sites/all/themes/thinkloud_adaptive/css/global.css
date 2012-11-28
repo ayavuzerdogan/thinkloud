@@ -39,7 +39,7 @@ dl.user-profile-category a:hover{
 
 /*tabs styles*/
 .tabs{
-	/*display: none;*/
+	display: none;
 }
 
 #breadcrumb{
@@ -140,6 +140,7 @@ dl.user-profile-category a:hover{
 
     .node-teaser a{
         color: #243546;
+	    background-color: transparent;
     }
     
     .node-teaser a:hover{
@@ -160,6 +161,7 @@ dl.user-profile-category a:hover{
 	    top: -35px;
 	    left: 128px;
 	    max-width:125px;
+	    height: 32px;
     }
 
     .node-teaser .node-title{
@@ -175,8 +177,17 @@ dl.user-profile-category a:hover{
 	    /*top: 25px;*/
 	    /*left: 12px;*/
 	    top: 18px;
-	    left: -11px;
+	    left: 19px;
+	    width: 56px;
+
     }
+
+	.node-teaser .field-type-fivestar{
+		left: 87px;
+		position: relative;
+		top: -26px;
+		width: 125px;
+	}
 
     .node-teaser .link-wrapper{
 	    position: relative;
@@ -188,7 +199,36 @@ dl.user-profile-category a:hover{
 
 	    .node-teaser .link-wrapper li{
 		    padding: 0;
+		    /*position: absolute;*/
+		    /*width: 30px;*/
+		    /*height: 30px;*/
 	    }
+
+			/*.node-teaser .link-wrapper li a{*/
+				/*color: transparent;*/
+				/*font-size: 0;*/
+				/*max-width: 30px;*/
+				/*max-height: 30px;*/
+				/*overflow: hidden;*/
+				/*text-indent: -9999px;*/
+			/*}*/
+
+        /*.node-teaser .link-wrapper li.node-readmore{*/
+	        /*top: 0;*/
+	        /*left: 0;*/
+        /*}*/
+		/*.node-teaser .link-wrapper li.comment-comments{*/
+			 /*top: 0;*/
+			 /*left: 30px;*/
+		 /*}*/
+		/*.node-teaser .link-wrapper li.comment-new-comments{*/
+			 /*top: 0;*/
+			 /*left: 60px;*/
+		 /*}*/
+		/*.node-teaser .link-wrapper li.flag-favorites{*/
+			 /*top: 0;*/
+			 /*left: 90px;*/
+		 /*}*/
 
 /*user profile*/
 a.privatemsg-send-link-profile{
@@ -431,4 +471,9 @@ dl.user-profile-category{
 
 .node-teaser.mood-10 a:hover{
 	color: #fff;
+}
+
+/*full node*/
+#node-menu ul li{
+	float:none;
 }
