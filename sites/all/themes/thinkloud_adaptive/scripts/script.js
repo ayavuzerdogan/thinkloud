@@ -1,17 +1,41 @@
 (function($) {
 	$(document).ready(function(){
-		$('.menu-block-wrapper ul > li').hover(function(){
+		$('.menu-block-wrapper ul > li').mouseover(function(){
 			$('.menu-block-wrapper ul > li > ul').each(function(){
 				$(this).hide();
 			})
 			$(this).children('ul').show();
 		});
-		if ($('.menu-block-wrapper li a.active').parent().parent().hasClass('menu')) $('.menu-block-wrapper li a.active').parent().parent().show();
+		if ($('.menu-block-wrapper li a.active').parent().parent().hasClass('menu'))
+			$('.menu-block-wrapper li a.active').parent().parent().show();
 
 		$('.menu-block-wrapper ul > li.active').children('ul').show();
 
-//		$('.mblock-menu-block-1').mouseleave(function(){
-//			$('.menu-block-wrapper ul > li > ul').hide();
-//		})
+		if($('.node-teaser .username').length){
+			$('.node-teaser .username').each(function(){
+
+				if($(this).html().length > 7){ //console.log(this);
+					var href = $(this).attr('href');
+					var name = $(this).html();
+					var width = this.offsetWidth + 50;
+					$(this).html(name.substr(0,7));
+					$(this).parent().append('<a href="'+href+'" class="fake-username" style="display:none">'+name+'</a>');
+					$(this).parent().mouseover(function(){
+						$(this).find('.username').hide();
+						$(this).find('.fake-username').show();
+						$(this).css('background','rgba(255, 255, 255, .5)');
+						$(this).css('max-width', width);
+						$(this).css('border-radius','4px');
+					});
+					$(this).parent().mouseout(function(){
+						$(this).find('.username').show();
+						$(this).find('.fake-username').hide();
+						$(this).css('background','none');
+						$(this).css('max-width','125px');
+					})
+
+				}
+			})
+		}
 	});
 })(jQuery);
