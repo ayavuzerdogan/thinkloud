@@ -2,43 +2,49 @@
   * thinkloud module
   * Sitdikov R.M.
   */
-require_once('constants.php');
+//require_once('constants.php');
 
-function thinkloud_block_info(){
-	$blocks[USER_RECORDS_BLOCK] = array(
-		'info' => 'User\'s records',
-		'status' => 1,
-		'region' => 'sidebar_first',
-		'cache' => DRUPAL_NO_CACHE,
-	);
-	return $blocks;
-}
+//function thinkloud_block_info(){
+//	$blocks[USER_RECORDS_BLOCK] = array(
+//		'info' => 'User\'s records',
+//		'status' => 1,
+//		'region' => 'sidebar_first',
+//		'cache' => DRUPAL_NO_CACHE,
+//	);
+//	return $blocks;
+//}
+//
+//function thinkloud_block_view($delta = '') {
+//	$block = array();
+//	switch ($delta) {
+//		case USER_RECORDS_BLOCK:
+//			$block['subject'] = '';
+//			$block['content'] = get_user_records();
+//			break;
+//	}
+//	return $block;
+//}
+//
+//function get_user_records(){
+//	$uid = arg(1);
+//	if (is_numeric($uid)){
+//		$result=db_select('node', 'n')
+//			->fields('n', array('nid'))
+//			->condition('`type`', 'record')
+//			->condition('status', '1')
+//			->condition('uid', $uid)
+//			->execute()->fetchAll();
+//		$nodes = array();
+//		foreach ($result as $node){
+//			$nodes[] = $node->nid;
+//		}
+//		if (!empty($nodes)) return node_view_multiple(node_load_multiple($nodes), 'teaser');
+//		else return 'No records yet';
+//	}
+//}
 
-function thinkloud_block_view($delta = '') {
-	$block = array();
-	switch ($delta) {
-		case USER_RECORDS_BLOCK:
-			$block['subject'] = '';
-			$block['content'] = get_user_records();
-			break;
-	}
-	return $block;
-}
-
-function get_user_records(){
-	$uid = arg(1);
-	if (is_numeric($uid)){
-		$result=db_select('node', 'n')
-			->fields('n', array('nid'))
-			->condition('`type`', 'record')
-			->condition('status', '1')
-			->condition('uid', $uid)
-			->execute()->fetchAll();
-		$nodes = array();
-		foreach ($result as $node){
-			$nodes[] = $node->nid;
-		}
-		if (!empty($nodes)) return node_view_multiple(node_load_multiple($nodes), 'teaser');
-		else return 'No records yet';
-	}
+function thinkloud_js_alter(&$javascript){
+	$javascript['sites/all/libraries/player/soundmanager2/script/soundmanager2.js']['weight']= 0.013;
+	$javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/berniecode-animator.js']['weight']= 0.014;
+	$javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js']['weight']= 0.015;
 }
