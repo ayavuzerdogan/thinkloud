@@ -1838,6 +1838,7 @@ div.admin-panel .description {
 #primary-tabs{
 	/*display: none;*/
 	position: absolute;
+	padding-bottom: 7px;
 	top: 56px;
 	right: 0px;
 	width: 650px;
