@@ -44,7 +44,7 @@
 //}
 
 function thinkloud_js_alter(&$javascript){
-	if (isset($javascript['sites/all/libraries/player/soundmanager2/script/soundmanager2.js'])) $javascript['sites/all/libraries/player/soundmanager2/script/soundmanager2.js']['weight']= 0.013;
-	if (isset($javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/berniecode-animator.js'])) $javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/berniecode-animator.js']['weight']= 0.014;
-	if (isset($javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js'])) $javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js']['weight']= 0.015;
+	if (isset($javascript['sites/all/libraries/player/soundmanager2/script/soundmanager2.js']))$javascript['sites/all/libraries/player/soundmanager2/script/soundmanager2.js']['weight']= 0.013;
+	if (isset($javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/berniecode-animator.js']))$javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/berniecode-animator.js']['weight']= 0.014;
+	if (isset($javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js']))$javascript['sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js']['weight']= 0.015;
 }
