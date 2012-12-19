@@ -477,3 +477,34 @@ dl.user-profile-category{
 #node-menu ul li{
 	float:none;
 }
+
+/*activity*/
+.heartbeat-activity {
+	background: rgba(255, 255, 255, 0.506);
+	/*border-bottom: 1px solid #E9E9E9;*/
+	border-radius: 20px;
+	margin-bottom: 10px;
+	/*padding-bottom: 7px;*/
+	padding-left: 14px;
+	padding-top: 11px !important;
+}
+
+.heartbeat-activity .heartbeat-group-left {
+	float: none;
+	width: 100%;
+}
+
+.heartbeat-group-left .heartbeat-time-ago{
+	line-height:30px;
+	margin-left:10px;
+}
+
+.heartbeat-activity .heartbeat-comments-wrapper .heartbeat-comments form {
+	background-color: transparent;
+	border-bottom: none;
+}
+
+.heartbeat-activity .heartbeat-comment {
+	background-color: transparent;
+	border-bottom: 1px solid #CFD7E1;
+}

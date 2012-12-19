@@ -118,7 +118,7 @@
 <!--			--><?php //print $links; ?>
 <!--		</div>-->
 <!--	--><?php //endif; ?>
-
+	<?php print flag_create_link('favorites', $node->nid); ?>
 	<?php print render($content['comments']); ?>
 
 </div>
