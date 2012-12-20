@@ -1,6 +1,9 @@
 (function($) {
 	$(document).ready(function(){
-		$('.menu-block-wrapper ul > li').mouseover(function(){
+		$('.menu-block-wrapper ul > li').click(function(e){
+//			if ($(this).parent().parent().hasClass('menu-level-1'))
+			console.log($(this).parent().parent());
+				e.preventDefault();
 			$('.menu-block-wrapper ul > li > ul').each(function(){
 				$(this).hide();
 			})
@@ -14,11 +17,11 @@
 		if($('.node-teaser .username').length){
 			$('.node-teaser .username').each(function(){
 
-				if($(this).html().length > 7){ //console.log(this);
+				if($(this).html().length > 8){ //console.log(this);
 					var href = $(this).attr('href');
 					var name = $(this).html();
 					var width = this.offsetWidth + 50;
-					$(this).html(name.substr(0,7));
+					$(this).html(name.substr(0,8));
 					$(this).parent().append('<a href="'+href+'" class="fake-username" style="display:none">'+name+'</a>');
 					$(this).parent().mouseover(function(){
 						$(this).find('.username').hide();
