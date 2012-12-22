@@ -3,7 +3,7 @@
 		$('.menu-block-wrapper ul > li').click(function(e){
 //			if ($(this).parent().parent().hasClass('menu-level-1'))
 			console.log($(this).parent().parent());
-				e.preventDefault();
+//				e.preventDefault();
 			$('.menu-block-wrapper ul > li > ul').each(function(){
 				$(this).hide();
 			})
