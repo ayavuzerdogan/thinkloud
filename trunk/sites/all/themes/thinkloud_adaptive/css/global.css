@@ -2,6 +2,7 @@
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
 /*custom!*/
+
 body{
 	/*font-family: "Open Sans Condensed";*/
 	font-family: "PT Sans Narrow";
@@ -12,10 +13,12 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6 {
-	/*font-family: "Open Sans Condensed";*/
 	font-family: "PT Sans Narrow";
-	/*font-family: "Ubuntu Condensed";*/
 	letter-spacing: normal;
+}
+
+h1,h2{
+	color: #243546;
 }
 
 /*links styles*/
@@ -30,6 +33,7 @@ a.privatemsg-send-link-profile:hover,
 dl.user-profile-category a:hover{
 	color: #243546;
 	background-color: #cef9ff;
+	background-image: url(../images/link-pattern.png);
 }
 
 .node-teaser .link-wrapper a{
@@ -141,11 +145,13 @@ dl.user-profile-category a:hover{
     .node-teaser a{
         color: #243546;
 	    background-color: transparent;
+	    background-image: none;
     }
     
     .node-teaser a:hover{
         color: #0062A0;
         background-color: transparent;
+	    background-image: none;
     }
 
 	.node-teaser .user-picture{
@@ -157,6 +163,9 @@ dl.user-profile-category a:hover{
     }
 
     .node-teaser .meta.submitted{
+	    padding-left: 5px;
+	    padding-bottom: 2px;
+	    padding-top: 2px;
 	    position: relative;
 	    top: -35px;
 	    left: 128px;
@@ -174,9 +183,7 @@ dl.user-profile-category a:hover{
 
     .node-teaser .field-name-field-file{
 	    position: relative;
-	    /*top: 25px;*/
-	    /*left: 12px;*/
-	    top: 18px;
+	    top: 13px;
 	    left: 19px;
 	    width: 56px;
 
@@ -204,31 +211,16 @@ dl.user-profile-category a:hover{
 		    /*height: 30px;*/
 	    }
 
-			/*.node-teaser .link-wrapper li a{*/
-				/*color: transparent;*/
-				/*font-size: 0;*/
-				/*max-width: 30px;*/
-				/*max-height: 30px;*/
-				/*overflow: hidden;*/
-				/*text-indent: -9999px;*/
-			/*}*/
+#sm2-container{
+	height: 0;
+}
 
-        /*.node-teaser .link-wrapper li.node-readmore{*/
-	        /*top: 0;*/
-	        /*left: 0;*/
-        /*}*/
-		/*.node-teaser .link-wrapper li.comment-comments{*/
-			 /*top: 0;*/
-			 /*left: 30px;*/
-		 /*}*/
-		/*.node-teaser .link-wrapper li.comment-new-comments{*/
-			 /*top: 0;*/
-			 /*left: 60px;*/
-		 /*}*/
-		/*.node-teaser .link-wrapper li.flag-favorites{*/
-			 /*top: 0;*/
-			 /*left: 90px;*/
-		 /*}*/
+#sm2movie{
+	height: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
 
 /*user profile*/
 a.privatemsg-send-link-profile{
@@ -282,11 +274,24 @@ dl.user-profile-category{
 	width: 219px;
 }
 
-/*.field-name-ds-user-picture img{*/
-	/*float: left;*/
-	/*margin-right: 10px;*/
-	/*margin-bottom: 10px;*/
-/*}*/
+.view-id-user_friends_block .views-row{
+	background: rgba(255, 255, 255, 0.506);
+	border-radius: 5px;
+	margin: 0 10px 5px 0;
+	padding: 5px 5px;
+	width:auto;
+	float: left;
+}
+
+.view-id-user_friends_block .views-row:hover{
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+.pane-user-friends-block h2{
+	margin-bottom: 5px;
+}
 
 
 /* ----------------- Comments ----------------- */
@@ -358,17 +363,6 @@ dl.user-profile-category{
 	border-right: 1px solid #fff4f4;
 }
 
-#sm2-container{
-	height: 0;
-}
-
-#sm2movie{
-	height: 0;
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
 
 /*mood*/
 /*usual*/
@@ -379,13 +373,13 @@ dl.user-profile-category{
 .node-teaser.mood-4 a.flag-action{
 	left: 215px;
 	position: absolute;
-	top: -64px;
+	top: -68px;
 }
 
 .node-teaser.mood-4 a.unflag-action{
 	left: 215px;
 	position: absolute;
-	top: -64px;
+	top: -68px;
 }
 
 /*sunny*/
@@ -403,14 +397,14 @@ dl.user-profile-category{
 
 	.node-teaser.mood-5 .meta.submitted{
 		position: relative;
-		top: -27px;
+		top: -31px;
 		left: 128px;
 		max-width:125px;
 	}
 
 	.node-teaser.mood-5 .node-title{
 		position: relative;
-		top: 65px;
+		top: 61px;
 		left:74px;
 		max-width:186px;
 		overflow: hidden;
@@ -418,16 +412,14 @@ dl.user-profile-category{
 
 	.node-teaser.mood-5 .field-name-field-file{
 		position: relative;
-		/*top: 25px;*/
-		/*left: 12px;*/
-		top: 18px;
+		top: 17px;
 		left: 22px;
 	}
 
 	.node-teaser.mood-5 .link-wrapper{
 		position: relative;
 		z-index: 99;
-		top: -30px;
+		top: -34px;
 		left: 84px;
 		max-width: 224px;
 	}
@@ -439,13 +431,13 @@ dl.user-profile-category{
 .node-teaser.mood-5 a.flag-action{
 	left: 215px;
 	position: absolute;
-	top: -64px;
+	top: -68px;
 }
 
 .node-teaser.mood-5 a.unflag-action{
 	left: 215px;
 	position: absolute;
-	top: -64px;
+	top: -68px;
 }
 
 /*angry*/
@@ -464,28 +456,28 @@ dl.user-profile-category{
 
 	.node-teaser.mood-8 .submitted{
 		left: 73px;
-		top: -24px;
+		top: -28px;
 	}
 
 	.node-teaser.mood-8 .node-title{
-		top: 72px;
-		left:56px;
+		top: 68px;
+		left: 56px;
 	}
 
 	.node-teaser.mood-8 .field-name-field-file{
-		top: 30px;
+		top: 26px;
 	}
 
 .node-teaser.mood-8 a.flag-action{
 	left: 167px;
 	position: absolute;
-	top: -48px;
+	top: -52px;
 }
 
 .node-teaser.mood-8 a.unflag-action{
 	left: 167px;
 	position: absolute;
-	top: -48px;
+	top: -52px;
 }
 
 /*fun*/
@@ -493,19 +485,23 @@ dl.user-profile-category{
 	background-image: url("../images/cloud-white-fun.png");
 }
 
+.node-teaser.mood-9 .meta.submitted{
+	left:100px;
+}
+
 .node-teaser.mood-9 .link-wrapper{
-	top:0;
+	top:-4px;
 }
 
 .node-teaser.mood-9 a.flag-action{
 	position: absolute;
-	top: -40px;
+	top: -44px;
 	left:182px;
 }
 
 .node-teaser.mood-9 a.unflag-action{
 	position: absolute;
-	top: -40px;
+	top: -44px;
 	left:182px;
 }
 
@@ -518,19 +514,23 @@ dl.user-profile-category{
 	color: #CEF9FF;
 }
 
+.node-teaser.mood-10 .field-name-field-file {
+	top: 16px;
+}
+
 .node-teaser.mood-10 a:hover{
 	color: #fff;
 }
 
 .node-teaser.mood-10 a.flag-action{
 	position: absolute;
-	top: -56px;
+	top: -60px;
 	left:142px;
 }
 
 .node-teaser.mood-10 a.unflag-action{
 	position: absolute;
-	top: -56px;
+	top: -60px;
 	left:142px;
 }
 
@@ -604,4 +604,12 @@ a.unflag-action:hover{
 	display: inline-block;
 	background-position: 15px 14px;
 	background-repeat: no-repeat;
+}
+
+a.fake-active{
+	-moz-border-image: url(../images/link-pattern.png) 5px repeat;
+	-webkit-border-image: url(../images/link-pattern.png) 5px repeat;
+	-o-border-image: url(../images/link-pattern.png) 5px repeat;
+	border-image: url(../images/link-pattern.png) 5px repeat;
+	border-bottom: 2px solid #CEF9FF;
 }
