@@ -93,8 +93,6 @@ dl.user-profile-category a:hover{
 	/*user menu*/
 	.menu-block-wrapper ul li.leaf,
 	.menu-block-wrapper ul li.expanded{
-		float: left;
-		display:block;
 		list-style-type: none;
 		list-style-image: none;
 	}
@@ -106,7 +104,7 @@ dl.user-profile-category a:hover{
 
 		.menu-block-wrapper ul li > ul{
 			display: none;
-			position:absolute;
+			/*position:absolute;*/
 			left:0;
 			margin:0 0 0 -1px;
 			padding:0;
@@ -274,13 +272,16 @@ dl.user-profile-category{
 	width: 219px;
 }
 
+.field-name-ds-user-picture{
+	float: left;
+	margin-right: 5px;
+}
+
 .view-id-user_friends_block .views-row{
 	background: rgba(255, 255, 255, 0.506);
 	border-radius: 5px;
 	margin: 0 10px 5px 0;
 	padding: 5px 5px;
-	width:auto;
-	float: left;
 }
 
 .view-id-user_friends_block .views-row:hover{
