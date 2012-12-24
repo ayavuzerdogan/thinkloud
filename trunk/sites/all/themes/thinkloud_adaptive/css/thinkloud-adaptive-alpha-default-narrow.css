@@ -2,3 +2,13 @@
 /* If you are using the default media queries provided by Omega, these styles will also
  *  apply to the normal and widescreen layouts. You may override these styles in the normal 
  *  and widescreen CSS files as appropriate. */
+
+.menu-block-wrapper > ul > li > ul{
+	position: relative;
+}
+
+.menu-block-wrapper ul li.leaf,
+.menu-block-wrapper ul li.expanded{
+	float: none;
+	display:block;
+}

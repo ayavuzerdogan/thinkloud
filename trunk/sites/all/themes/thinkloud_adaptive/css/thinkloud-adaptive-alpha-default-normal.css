@@ -1,0 +1,17 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+/* If you are using the default media queries provided by Omega, these styles will also
+ *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+.view-id-user_friends_block .views-row{
+	float: left;
+	width:auto;
+}
+
+.menu-block-wrapper ul li.leaf,
+.menu-block-wrapper ul li.expanded{
+	float: left;
+	display:block;
+}
+
+.menu-block-wrapper > ul > li > ul{
+	position: absolute;
+}
