@@ -9,7 +9,7 @@
 			$('.menu-block-wrapper ul > li > ul').each(function(){
 				$(this).hide();
 			})
-			$(this).parent().children('ul').show();
+			$(this).parent().children('ul').fadeIn();
 		});
 //		if ($('.menu-block-wrapper li a.active').parent().parent().hasClass('menu'))
 //			$('.menu-block-wrapper li a.active').parent().parent().show();
