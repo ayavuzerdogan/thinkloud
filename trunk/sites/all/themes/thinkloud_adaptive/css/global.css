@@ -273,8 +273,9 @@ dl.user-profile-category{
 }
 
 .field-name-ds-user-picture{
-	float: left;
-	margin-right: 5px;
+	/*float: left;*/
+	/*margin-right: 5px;*/
+	/*border: 1px solid #B9DDE0;*/
 }
 
 .view-id-user_friends_block .views-row{
@@ -282,6 +283,7 @@ dl.user-profile-category{
 	border-radius: 5px;
 	margin: 0 10px 5px 0;
 	padding: 5px 5px;
+	border: 1px solid #B9DDE0;
 }
 
 .view-id-user_friends_block .views-row:hover{
@@ -405,7 +407,7 @@ dl.user-profile-category{
 
 	.node-teaser.mood-5 .node-title{
 		position: relative;
-		top: 61px;
+		top: 67px;
 		left:74px;
 		max-width:186px;
 		overflow: hidden;
@@ -613,4 +615,59 @@ a.fake-active{
 	-o-border-image: url(../images/link-pattern.png) 5px repeat;
 	border-image: url(../images/link-pattern.png) 5px repeat;
 	border-bottom: 2px solid #CEF9FF;
+}
+
+.user-profile-picture{
+	max-width: 100px;
+	float: left;
+}
+
+.user-profile-picture .panel-panel.grid-8{
+	max-width: 100px;
+}
+
+.pane-user-field-biography{
+	clear: both;
+}
+
+.pane-user-friends-block{
+	clear: both;
+}
+
+.pane-user-field-biography h2{
+	margin-bottom: -4px;
+}
+
+.new-message, .add-listener, .delete-listener{
+	background-image: url("../images/message-button-empty.png");
+}
+
+.new-message:hover,
+.add-listener:hover,
+.delete-listener:hover{
+	background-image: url("../images/message-button-fill_.png");
+}
+
+.big-buttons{
+	background-color: rgba(255, 255, 255, 0.506);
+	display: inline-block;
+	background-position: 5px 5px;
+	background-repeat: no-repeat;
+	border: 1px solid #B9DDE0;
+	border-radius: 5px;
+	display: inline-block;
+	height: 32px;
+	line-height: 32px;
+	margin: 0px 10px 5px 20px;
+	padding: 5px 5px 5px 50px;
+}
+
+.big-buttons:hover{
+	background-color: rgba(255, 255, 255, 0.506);
+}
+
+.hover-shadow:hover{
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
 }

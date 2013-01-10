@@ -45,5 +45,34 @@
 				}
 			})
 		}
+
+		if($('.node-teaser .node-title a').length){
+			$('.node-teaser .node-title a').each(function(){
+
+				if($(this).html().length > 8){ //console.log(this);
+					var href = $(this).attr('href');
+					var name = $(this).html();
+					var width = this.offsetWidth + 50;
+					$(this).html(name.substr(0,12));
+					$(this).addClass('true-node-title');
+					$(this).parent().append('<a href="'+href+'" class="fake-node-title" style="display:none">'+name+'</a>');
+					$(this).parent().mouseover(function(){
+						$(this).find('.true-node-title').hide();
+						$(this).find('.fake-node-title').show();
+//						$(this).find('.fake-node-title').css('display','inline-block');
+						$(this).css('background','rgba(255, 255, 255, .5)');
+						$(this).css('max-width', width);
+						$(this).css('border-radius','4px');
+					});
+					$(this).parent().mouseout(function(){
+						$(this).find('.true-node-title').show();
+						$(this).find('.fake-node-title').hide();
+						$(this).css('background','none');
+						$(this).css('max-width','125px');
+					})
+
+				}
+			})
+		}
 	});
 })(jQuery);
