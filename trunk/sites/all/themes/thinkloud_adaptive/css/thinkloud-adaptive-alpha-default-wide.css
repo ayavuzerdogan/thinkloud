@@ -13,3 +13,7 @@
 .menu-block-wrapper > ul > li > ul{
 	position: absolute;
 }
+
+#volume-control{
+	left: 700px;
+}

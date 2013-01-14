@@ -88,14 +88,16 @@
 					if(step == 0) knob.style.left = x+'px';
 					else knob.style.left = Math.round(x/(step*point))*step*point+'px';
 				}
-				d.getElementById('info').value = getValue();	// это вывод значения для примера
+//				d.getElementById('info').value = getValue();	// это вывод значения для примера
+				threeSixtyPlayer.lastSound.setVolume(getValue()); 	// это вывод значения для примера
 			}
 			function setValue2(x)	// установка по значению
 			{
 				if(x < range1 || x > range2) alert('Value is not included into a slider range!');
 				else setValue((x-range1)*point);
 
-				d.getElementById('info').value = getValue();
+//				d.getElementById('info').value = getValue();
+				threeSixtyPlayer.lastSound.setVolume(getValue());
 			}
 
 			function getValue()
@@ -141,6 +143,7 @@
 		} // конец класса
 
 		var volumeControl = new slider('volume-control', 100, 0, 100, 0);
+		$('#volume-control').css('position','fixed');
 		/*
 		end of volume control
 		 */
