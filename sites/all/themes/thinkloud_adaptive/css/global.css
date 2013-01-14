@@ -655,7 +655,6 @@ a.fake-active{
 	background-repeat: no-repeat;
 	border: 1px solid #B9DDE0;
 	border-radius: 5px;
-	display: inline-block;
 	height: 32px;
 	line-height: 32px;
 	margin: 0px 10px 5px 20px;
@@ -676,6 +675,7 @@ a.fake-active{
 .slider {
 	background-image: url("../images/sider-bg.png");
 	background-repeat: repeat-x;
+	z-index: 99999;
 }
 .knob {
 	position: relative;
@@ -684,6 +684,27 @@ a.fake-active{
 }
 
 #volume-control{
-	float:left;
-	margin: -18px 0 0 20px;
+	background-color: rgba(255, 255, 255, 0.506);
+	border-bottom: 1px solid #B9DDE0;
+	border-left: 1px solid #B9DDE0;
+	border-radius: 0px 0px 5px 5px;
+	border-right: 1px solid #B9DDE0;
+	border-top: medium none currentColor;
+	display: inline-block;
+	height: 35px;
+	/*left: 600px;*/
+	line-height: 13px;
+	padding: 0px 10px;
+	/*position: fixed;*/
+	z-index: 9999999;
+}
+#volume-control{
+	left: 180px;
+	top:0px;
+}
+
+#volume-control:hover{
+	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
