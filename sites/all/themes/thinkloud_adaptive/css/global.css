@@ -608,7 +608,7 @@ a.unflag-action:hover{
 	background-position: 15px 14px;
 	background-repeat: no-repeat;
 }
-
+/*profile*/
 a.fake-active{
 	-moz-border-image: url(../images/link-pattern.png) 5px repeat;
 	-webkit-border-image: url(../images/link-pattern.png) 5px repeat;
@@ -670,4 +670,20 @@ a.fake-active{
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
 	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+}
+
+/*volume control*/
+.slider {
+	background-image: url("../images/sider-bg.png");
+	background-repeat: repeat-x;
+}
+.knob {
+	position: relative;
+	background-image: url("../images/selector.png");
+	background-repeat: no-repeat;
+}
+
+#volume-control{
+	float:left;
+	margin: -18px 0 0 20px;
 }
