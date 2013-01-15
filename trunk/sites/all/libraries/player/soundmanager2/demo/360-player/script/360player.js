@@ -442,7 +442,8 @@ function ThreeSixtyPlayer() {
 
       oContainer = o.parentNode;
       has_vis = (self.getElementsByClassName('ui360-vis','div',oContainer.parentNode).length);
-
+	    //HARDCODED VOLUME!
+	    knob = document.getElementById('volume-control_knob');
       // create sound
       thisSound = sm.createSound({
        id:'ui360Sound'+(self.soundCount++),
@@ -457,7 +458,8 @@ function ThreeSixtyPlayer() {
        whileplaying:self.events.whileplaying,
        useWaveformData:(has_vis && self.config.useWaveformData),
        useEQData:(has_vis && self.config.useEQData),
-       usePeakData:(has_vis && self.config.usePeakData)
+       usePeakData:(has_vis && self.config.usePeakData),
+	   volume:Math.round(parseInt(knob.style.left))
       });
 
       // tack on some custom data
