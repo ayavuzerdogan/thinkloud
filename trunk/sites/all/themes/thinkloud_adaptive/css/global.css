@@ -574,38 +574,50 @@ dl.user-profile-category{
 }
 
 a.flag-action{
-	background-image: url(../images/like-button-off.png);
-	width: 60px;
-	height: 70px;
+	/*background-image: url(../images/like-button-off.png);*/
+	background-image: url(../images/net__.png);
+	/*width: 60px;*/
+	width: 75px;
+	/*height: 70px;*/
+	height: 75px;
 	display: inline-block;
-	background-position: 15px 14px;
+	/*background-position: 3px 3px;*/
 	background-repeat: no-repeat;
 }
 
 a.flag-action:hover{
-	background-image: url(../images/like-button-on.png);
-	width: 60px;
-	height: 70px;
+	/*background-image: url(../images/like-button-on.png);*/
+	background-image: url(../images/net__hover.png);
+	/*width: 60px;*/
+	width: 75px;
+	/*height: 70px;*/
+	height: 75px;
 	display: inline-block;
-	background-position: 0 0;
+	/*background-position: 0 0;*/
 	background-repeat: no-repeat;
 }
 
 a.unflag-action{
-	background-image: url(../images/like-button-on.png);
-	width: 60px;
-	height: 70px;
+	/*background-image: url(../images/like-button-on.png);*/
+	background-image: url(../images/net__.png);
+	/*width: 60px;*/
+	width: 75px;
+	/*height: 70px;*/
+	height: 75px;
 	display: inline-block;
-	background-position: 0 0;
+	/*background-position: 3px 3px;*/
 	background-repeat: no-repeat;
 }
 
 a.unflag-action:hover{
-	background-image: url(../images/like-button-off.png);
-	width: 60px;
-	height: 70px;
+	/*background-image: url(../images/like-button-off.png);*/
+	background-image: url(../images/net__hover.png);
+	/*width: 60px;*/
+	width: 75px;
+	/*height: 70px;*/
+	height: 75px;
 	display: inline-block;
-	background-position: 15px 14px;
+	/*background-position: 15px 14px;*/
 	background-repeat: no-repeat;
 }
 /*profile*/
