@@ -68,7 +68,12 @@
 
 		if($('.node-teaser .node-title a').length){
 			$('.node-teaser .node-title a').each(function(){
-
+				var node_classes = $(this).parent().parent().attr('class');
+				var mood_class = node_classes.substr(node_classes.indexOf('mood-'));
+				var mood_index = parseFloat(mood_class.substr(mood_class.indexOf('-')+1));
+				switch (mood_index){
+					case 1:
+				}
 				if($(this).html().length > 8){ //console.log(this);
 					var href = $(this).attr('href');
 					var name = $(this).html();

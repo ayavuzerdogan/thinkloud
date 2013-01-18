@@ -176,7 +176,7 @@ dl.user-profile-category a:hover{
 	    top: 59px;
 	    left:74px;
 	    max-width:186px;
-	    overflow: hidden;
+	    /*overflow: hidden;*/
     }
 
     .node-teaser .field-name-field-file{
