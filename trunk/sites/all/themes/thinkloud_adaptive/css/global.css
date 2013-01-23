@@ -175,7 +175,7 @@ dl.user-profile-category a:hover{
 	    position: relative;
 	    top: 59px;
 	    left:74px;
-	    max-width:186px;
+	    /*max-width:186px;*/
 	    /*overflow: hidden;*/
     }
 
@@ -219,6 +219,14 @@ dl.user-profile-category a:hover{
 	top: 0;
 	left: 0;
 }
+
+.fake-node-title{
+	padding: 0 5px 0 5px;
+}
+
+/*.fake-node-title:hover{*/
+	/*border:1px solid #B9DDE0;*/
+/*}*/
 
 /*user profile*/
 a.privatemsg-send-link-profile{
@@ -409,8 +417,8 @@ dl.user-profile-category{
 		position: relative;
 		top: 67px;
 		left:74px;
-		max-width:186px;
-		overflow: hidden;
+		/*max-width:186px;*/
+		/*overflow: hidden;*/
 	}
 
 	.node-teaser.mood-5 .field-name-field-file{
