@@ -211,7 +211,12 @@ function slider(elemId, sliderWidth, range1, range2, step) {
 			if(event.srcElement != slider) return; //IE onclick bug
 			x = event.offsetX - Math.round(knobWidth/2);
 		}
-		else x = e.pageX-sliderOffset-knobWidth/2;
+		else x = e.pageX-slider.offsetLeft-knobWidth/2-document.getElementById('volume-control').offsetLeft;
+//		console.log(document.getElementById('volume-control').offsetLeft);
+//		console.log('e.pageX: '+e.pageX);
+//		console.log('offsetLeft: '+slider.offsetLeft);
+//		console.log('knobW: '+knobWidth);
+//		console.log('value: '+x);
 		setValue(x);
 	}
 
@@ -228,8 +233,13 @@ function slider(elemId, sliderWidth, range1, range2, step) {
 	function mov(e)	{
 		var x;
 		if(isIE) x = event.clientX-offsX;
-		else x = e.pageX-sliderOffset-knobWidth/2;
+		else x = e.pageX-slider.offsetLeft-knobWidth/2-document.getElementById('volume-control').offsetLeft;
 		setValue(x);
+//		console.log(document.getElementById('volume-control').offsetLeft);
+//		console.log('e.pageX: '+e.pageX);
+//		console.log('offsetLeft: '+slider.offsetLeft);
+//		console.log('knobW: '+knobWidth);
+//		console.log('value: '+x);
 	}
 
 	function endCoord()	{
