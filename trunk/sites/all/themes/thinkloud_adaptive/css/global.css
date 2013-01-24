@@ -707,9 +707,9 @@ a.fake-active{
 	background-color: rgba(255, 255, 255, 0.506);
 	border-bottom: 1px solid #B9DDE0;
 	border-left: 1px solid #B9DDE0;
-	border-radius: 0px 0px 5px 5px;
+	border-radius: 0 0 5px 5px;
 	border-right: 1px solid #B9DDE0;
-	border-top: medium none currentColor;
+	border-top: none;
 	display: inline-block;
 	height: 35px;
 	/*left: 600px;*/
@@ -720,7 +720,7 @@ a.fake-active{
 }
 #volume-control{
 	left: 180px;
-	top:0px;
+	top:0;
 }
 
 #volume-control:hover{
@@ -728,3 +728,13 @@ a.fake-active{
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5);
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
+
+/*#volume-control_knob{*/
+	/*cursor: pointer;*/
+	/*-webkit-user-select: none;*/
+	/*-khtml-user-select: none;*/
+	/*-moz-user-select: none;*/
+	/*-ms-user-select: none;*/
+	/*-o-user-select: none;*/
+	/*user-select: none;*/
+/*}*/
