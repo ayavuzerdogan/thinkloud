@@ -28,9 +28,14 @@
 		/*
 		 volume control
 		 */
-		var volumeControl = new slider('volume-control', 120, 0, 100, 0);
-		volumeControl.setValue(75);
-		$('#volume-control').css('position','fixed');
+		if ($('#sm2-container-real').length){
+			var volumeControl = new slider('volume-control', 120, 0, 100, 0);
+			volumeControl.setValue(75);
+			console.log('dsfsfsd');
+			$('#volume-control').css('position','fixed');
+		} else {
+			$('#volume-control').hide();
+		}
 		/*
 		 end of volume control
 		 */
