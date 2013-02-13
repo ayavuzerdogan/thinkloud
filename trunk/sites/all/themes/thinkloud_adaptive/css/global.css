@@ -26,6 +26,7 @@ a,
 a:link,
 a:visited{
 	text-decoration: none;
+	color: #243546;
 }
 a:hover,
 a.active,
@@ -125,6 +126,9 @@ dl.user-profile-category a:hover{
 		list-style: none;
 	}
 
+.region.region-page-bottom{
+	min-height: 0px;
+}
 /*teaser*/
 .node-teaser {
 	margin-bottom: 30px;
@@ -286,7 +290,8 @@ dl.user-profile-category{
 	/*border: 1px solid #B9DDE0;*/
 }
 
-.view-id-user_friends_block .views-row{
+.view-id-user_friends_block .views-row,
+.user-nameplate{
 	background: rgba(255, 255, 255, 0.506);
 	border-radius: 5px;
 	margin: 0 10px 5px 0;
@@ -294,7 +299,8 @@ dl.user-profile-category{
 	border: 1px solid #B9DDE0;
 }
 
-.view-id-user_friends_block .views-row:hover{
+.view-id-user_friends_block .views-row:hover,
+.user-nameplate:hover{
 	-moz-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Firefox */
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Для Safari и Chrome */
 	box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
@@ -662,6 +668,14 @@ a.fake-active{
 	background-image: url("../images/message-button-empty.png");
 }
 
+.user-edit.big-buttons{
+	background-image: url("../images/profile-edit.png");
+	background-position: 8px 7px;
+}
+
+.user-edit:hover{
+	background-image:  url("../images/profile-edit-hover.png");
+}
 .new-message:hover,
 .add-listener:hover,
 .delete-listener:hover{

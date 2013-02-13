@@ -1,5 +1,6 @@
 /* This file will hold styles that are loaded using the same media query as the wide grid. */
 .view-id-user_friends_block .views-row{
+/*.user-nameplate{*/
 	float: left;
 	width:auto;
 }
