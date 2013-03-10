@@ -120,15 +120,17 @@
 <!--	--><?php //endif; ?>
 	<?php print flag_create_link('favorites', $node->nid); ?>
 	<?php print render($content['comments']); ?>
-	</div>
 	<?php if (!empty($node->field_picture)):?>
 	<div class="cloud-picture">
+		<div class="clip"></div>
 		<div class="cloud-picture-wrapper">
 			<?php print theme_image_style(array(
-				'style_name' => 'cloud_picture',
-				'path' => $node->field_picture['und'][0]['uri']));
+			'style_name' => 'cloud_picture_small',
+			'path' => $node->field_picture['und'][0]['uri']));
 			?>
 		</div>
 	</div>
 	<?php endif?>
+	</div>
+
 </div>
