@@ -37,6 +37,10 @@ dl.user-profile-category a:hover{
 	background-image: url(../images/link-pattern.png);
 }
 
+li{
+	list-style: none;
+}
+
 .grid-8 .form-textarea,
 .grid-8 .form-text{
 	max-width: 380px;
@@ -173,7 +177,7 @@ dl.user-profile-category a:hover{
     
     .node-teaser a,
 .node-teaser-big-picture a:hover{
-        color: #0062A0;
+        /*color: #0062A0;*/
         background-color: transparent;
 	    background-image: none;
     }
@@ -294,7 +298,7 @@ dl.user-profile-category a:hover{
 	position: absolute;
 	top: -12px;
 	left: 21px;
-	background-image: url("../images/clip-2.png");
+	background-image: url("../images/clip-4.png");
 	width:14px;
 	height: 21px;
 	z-index: 1;
@@ -747,7 +751,7 @@ dl.user-profile-category{
 
 a.flag-action{
 	/*background-image: url(../images/like-button-off.png);*/
-	background-image: url(../images/net__.png);
+	background-image: url(../images/net+.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -759,7 +763,7 @@ a.flag-action{
 
 a.flag-action:hover{
 	/*background-image: url(../images/like-button-on.png);*/
-	background-image: url(../images/net__hover.png);
+	background-image: url(../images/net+hover.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -771,7 +775,7 @@ a.flag-action:hover{
 
 a.unflag-action{
 	/*background-image: url(../images/like-button-on.png);*/
-	background-image: url(../images/net__.png);
+	background-image: url(../images/net-.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -783,7 +787,7 @@ a.unflag-action{
 
 a.unflag-action:hover{
 	/*background-image: url(../images/like-button-off.png);*/
-	background-image: url(../images/net__hover.png);
+	background-image: url(../images/net-hover.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
