@@ -41,6 +41,10 @@ function thinkloud_adaptive_preprocess_node(&$variables) {
 	if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
 		$variables['classes_array'][] = 'node-full';
 	}
+	if ($variables['node']->type == 'record' && $variables['view_mode'] == 'record_big_picture') {
+		$variables['theme_hook_suggestions'][] = 'node__record__big__picture';
+		$variables['classes_array'][] = 'node-teaser-big-picture';
+	}
 	$variables['submitted'] = '&nbsp<a href="/user/'.$variables['uid'].'">'.$variables['name'].'</a>';
 }
 

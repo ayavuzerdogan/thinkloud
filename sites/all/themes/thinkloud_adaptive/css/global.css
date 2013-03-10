@@ -42,7 +42,8 @@ dl.user-profile-category a:hover{
 	max-width: 380px;
 }
 
-.node-teaser .link-wrapper a{
+.node-teaser .link-wrapper a,
+.node-teaser-big-picture .link-wrapper a{
 	background-color: transparent;
 }
 
@@ -136,7 +137,8 @@ dl.user-profile-category a:hover{
 }
 
 /*teaser*/
-.node-teaser {
+.node-teaser ,
+.node-teaser-big-picture {
 	margin-bottom: 30px;
 	padding-bottom: 15px;
 	/*background-image: url("../images/cloud-white-main.png");*/
@@ -150,7 +152,8 @@ dl.user-profile-category a:hover{
 	/*height: 168px;*/
 }
 
-.node-teaser .cloud{
+.node-teaser .cloud,
+.node-teaser-big-picture .cloud{
 	min-height: 220px;
 	background-repeat: no-repeat;
 	margin-left: 25px;
@@ -161,27 +164,32 @@ dl.user-profile-category a:hover{
 	     display: none;
      }
 
-    .node-teaser a{
+    .node-teaser a,
+.node-teaser-big-picture a{
         color: #243546;
 	    background-color: transparent;
 	    background-image: none;
     }
     
-    .node-teaser a:hover{
+    .node-teaser a,
+.node-teaser-big-picture a:hover{
         color: #0062A0;
         background-color: transparent;
 	    background-image: none;
     }
 
-	.node-teaser .user-picture{
+	.node-teaser .user-picture,
+.node-teaser-big-picture .user-picture{
 		float:left;
 	}
 
-    .node-teaser .link-wrapper{
+    .node-teaser .link-wrapper,
+.node-teaser-big-picture .link-wrapper{
 	    font-size: 0.8em;
     }
 
-    .node-teaser .meta.submitted{
+    .node-teaser .meta.submitted,
+.node-teaser-big-picture .meta.submitted{
 	    padding-left: 5px;
 	    padding-bottom: 2px;
 	    padding-top: 2px;
@@ -192,7 +200,8 @@ dl.user-profile-category a:hover{
 	    height: 32px;
     }
 
-    .node-teaser .node-title{
+    .node-teaser .node-title,
+.node-teaser-big-picture .node-title{
 	    position: relative;
 	    /*top: 59px;*/
 	    /*left:74px;*/
@@ -215,7 +224,8 @@ dl.user-profile-category a:hover{
 	    margin-bottom: 10px;
     }
 
-    .node-teaser .field-name-field-file{
+    .node-teaser .field-name-field-file,
+.node-teaser-big-picture .field-name-field-file{
 	    position: relative;
 	    top: 73px;
 	    left: 19px;
@@ -223,14 +233,16 @@ dl.user-profile-category a:hover{
 
     }
 
-	.node-teaser .field-type-fivestar{
+	.node-teaser .field-type-fivestar,
+.node-teaser-big-picture .field-type-fivestar{
 		left: 87px;
 		position: relative;
 		top: -26px;
 		width: 125px;
 	}
 
-    .node-teaser .link-wrapper{
+    .node-teaser .link-wrapper,
+.node-teaser-big-picture .link-wrapper{
 	    position: relative;
 	    z-index: 99;
 	    top: -30px;
@@ -238,23 +250,36 @@ dl.user-profile-category a:hover{
 	    max-width: 224px;
     }
 
-	    .node-teaser .link-wrapper li{
+	    .node-teaser .link-wrapper li,
+.node-teaser-big-picture .link-wrapper li{
 		    padding: 0;
 		    /*position: absolute;*/
 		    /*width: 30px;*/
 		    /*height: 30px;*/
 	    }
-
+.cloud-picture:hover{
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.506);
+}
 .node-teaser .cloud-picture{
-	/*background-color: rgba(255, 255, 255, 0.506);*/
-	/*background-position: 5px 5px;*/
-	/*background-repeat: no-repeat;*/
-	/*border: 1px solid #B9DDE0;*/
-	/*border-radius: 5px;*/
+	background-image: url(../images/polaroid-bg-30.png);
+	width: 50px;
+	margin: 0 auto;
+	padding: 3px 3px 14px 3px;
+	border: 1px solid #D6D6D6;
+	margin-bottom: 5px;
+	-moz-transform: rotate(2deg);
+	-ms-transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	-o-transform: rotate(2deg);
+	transform: rotate(2deg);
+	position: relative;
+	left: -40px;
+}
+
+.node-teaser-big-picture .cloud-picture{
 	background-image: url(../images/polaroid-bg-30.png);
 	width: 280px;
 	margin: 0 auto;
-	/*padding: 5px 5px 5px 5px;*/
 	padding: 9px 9px 60px 9px;
 	border: 1px solid #D6D6D6;
 	margin-bottom: 5px;
@@ -265,16 +290,28 @@ dl.user-profile-category a:hover{
 	transform: rotate(2deg);
 }
 
-.node-teaser .cloud-picture-wrapper img{
+.clip{
+	position: absolute;
+	top: -12px;
+	left: 21px;
+	background-image: url("../images/clip-2.png");
+	width:14px;
+	height: 21px;
+	z-index: 1;
+}
+.node-teaser .cloud-picture-wrapper img,
+.node-teaser-big-picture .cloud-picture-wrapper img{
 	z-index: 0;
 	display:block;
 }
 
-.node-teaser .cloud-picture-wrapper{
+.node-teaser .cloud-picture-wrapper,
+.node-teaser-big-picture .cloud-picture-wrapper{
 	display:block;
 	position:relative;
 }
-.node-teaser .cloud-picture-wrapper::before
+.node-teaser .cloud-picture-wrapper::before,
+.node-teaser-big-picture .cloud-picture-wrapper::before
 {
 	display:block;
 	content:'';
@@ -457,47 +494,58 @@ dl.user-profile-category{
 
 /*mood*/
 /*usual*/
-.node-teaser.mood-4 .cloud{
+.record_big_picture.mood-4 .cloud,
+.node-teaser.mood-4 .cloud,
+.node-teaser-big-picture.mood-4 .cloud{
 	background-image: url("../images/cloud-white-main.png");
 }
 
-.node-teaser.mood-4 .field-name-field-file {
+.record_big_picture.mood-4 .field-name-field-file,
+.node-teaser.mood-4 .field-name-field-file ,
+.node-teaser-big-picture.mood-4 .field-name-field-file {
 	top:73px;
 }
 
-.node-teaser.mood-4 a.flag-action{
+.node-teaser.mood-4 a.flag-action,
+.node-teaser-big-picture.mood-4 a.flag-action{
 	left: 215px;
 	position: absolute;
 	top: 0px;
 }
 
-.node-teaser.mood-4 a.unflag-action{
+.node-teaser.mood-4 a.unflag-action,
+.node-teaser-big-picture.mood-4 a.unflag-action{
 	left: 215px;
 	position: absolute;
 	top: 0px;
 }
 
 /*sunny*/
-.node-teaser.mood-5 .cloud{
+.node-teaser.mood-5 .cloud,
+.node-teaser-big-picture.mood-5 .cloud{
 	background-image: url("../images/cloud-white-sunny.png");
 }
 
-	.node-teaser.mood-5 .user-picture{
+	.node-teaser.mood-5 .user-picture,
+.node-teaser-big-picture.mood-5 .user-picture{
 		float:left;
 	}
 
-	.node-teaser.mood-5 .link-wrapper{
+	.node-teaser.mood-5 .link-wrapper,
+.node-teaser-big-picture.mood-5 .link-wrapper{
 		font-size: 0.8em;
 	}
 
-	.node-teaser.mood-5 .meta.submitted{
+	.node-teaser.mood-5 .meta.submitted,
+.node-teaser-big-picture.mood-5 .meta.submitted{
 		position: relative;
 		top: 40px;
 		left: 128px;
 		max-width:125px;
 	}
 
-	/*.node-teaser.mood-5 .node-title{*/
+	/*.node-teaser.mood-5 .node-title,
+.node-teaser-big-picture.mood-5 .node-title{*/
 		/*position: relative;*/
 		/*top: 67px;*/
 		/*left:74px;*/
@@ -505,13 +553,15 @@ dl.user-profile-category{
 		/*overflow: hidden;*/
 	/*}*/
 
-	.node-teaser.mood-5 .field-name-field-file{
+	.node-teaser.mood-5 .field-name-field-file,
+.node-teaser-big-picture.mood-5 .field-name-field-file{
 		position: relative;
 		top: 80px;
 		left: 22px;
 	}
 
-	.node-teaser.mood-5 .link-wrapper{
+	.node-teaser.mood-5 .link-wrapper,
+.node-teaser-big-picture.mood-5 .link-wrapper{
 		position: relative;
 		z-index: 99;
 		top: -34px;
@@ -519,118 +569,141 @@ dl.user-profile-category{
 		max-width: 224px;
 	}
 
-	.node-teaser.mood-5 .link-wrapper li{
+	.node-teaser.mood-5 .link-wrapper li,
+.node-teaser-big-picture.mood-5 .link-wrapper li{
 		padding: 0;
 	}
 
-.node-teaser.mood-5 a.flag-action{
+.node-teaser.mood-5 a.flag-action,
+.node-teaser-big-picture.mood-5 a.flag-action{
 	left: 215px;
 	position: absolute;
 	top: 0px;
 }
 
-.node-teaser.mood-5 a.unflag-action{
+.node-teaser.mood-5 a.unflag-action,
+.node-teaser-big-picture.mood-5 a.unflag-action{
 	left: 215px;
 	position: absolute;
 	top: 0px;
 }
 
 /*angry*/
-.node-teaser.mood-8 .cloud{
+.node-teaser.mood-8 .cloud,
+.node-teaser-big-picture.mood-8 .cloud{
 	background-image: url("../images/cloud-white-angry.png");
 }
 
-	.node-teaser.mood-8 a{
+	.node-teaser.mood-8 a,
+.node-teaser-big-picture.mood-8 a{
 		/*color: #CEF9FF;*/
 	}
 
-	.node-teaser.mood-8 a:hover{
+	.node-teaser.mood-8 a:hover,
+.node-teaser-big-picture.mood-8 a:hover{
 		/*color: #fff;*/
 		/*background-color: transparent;*/
 	}
 
-	.node-teaser.mood-8 .submitted{
+	.node-teaser.mood-8 .submitted,
+.node-teaser-big-picture.mood-8 .submitted{
 		left: 73px;
 		top: 40px;
 	}
 
-	/*.node-teaser.mood-8 .node-title{*/
+	/*.node-teaser.mood-8 .node-title,
+.node-teaser-big-picture.mood-8 .node-title{*/
 		/*top: 68px;*/
 		/*left: 56px;*/
 	/*}*/
 
-	.node-teaser.mood-8 .field-name-field-file{
+	.node-teaser.mood-8 .field-name-field-file,
+.node-teaser-big-picture.mood-8 .field-name-field-file{
 		top: 84px;
 	}
 
-.node-teaser.mood-8 a.flag-action{
+.node-teaser.mood-8 a.flag-action,
+.node-teaser-big-picture.mood-8 a.flag-action{
 	left: 167px;
 	position: absolute;
 	top: 6px;
 }
 
-.node-teaser.mood-8 a.unflag-action{
+.node-teaser.mood-8 a.unflag-action,
+.node-teaser-big-picture.mood-8 a.unflag-action{
 	left: 167px;
 	position: absolute;
 	top: 6px;
 }
 
 /*fun*/
-.node-teaser.mood-9 .cloud{
+.node-teaser.mood-9 .cloud,
+.node-teaser-big-picture.mood-9 .cloud{
 	background-image: url("../images/cloud-white-fun.png");
 }
 
-.node-teaser.mood-9 .meta.submitted{
+.node-teaser.mood-9 .meta.submitted,
+.node-teaser-big-picture.mood-9 .meta.submitted{
 	left:100px;
 }
 
-.node-teaser.mood-9 .link-wrapper{
+.node-teaser.mood-9 .link-wrapper,
+.node-teaser-big-picture.mood-9 .link-wrapper{
 	top:-4px;
 }
 
-.node-teaser.mood-9 .field-name-field-file {
+.node-teaser.mood-9 .field-name-field-file ,
+.node-teaser-big-picture.mood-9 .field-name-field-file {
 	left: 22px;
 	position: relative;
 	top: 67px;
 	width: 56px;
 }
 
-.node-teaser.mood-9 a.flag-action{
+.node-teaser.mood-9 a.flag-action,
+.node-teaser-big-picture.mood-9 a.flag-action{
 	position: absolute;
 	top: 15px;
 	left:182px;
 }
 
-.node-teaser.mood-9 a.unflag-action{
+.node-teaser.mood-9 a.unflag-action,
+.node-teaser-big-picture.mood-9 a.unflag-action{
 	position: absolute;
 	top: 15px;
 	left:182px;
 }
 
 /*sadness*/
-.node-teaser.mood-10 .cloud{
+.node-teaser.mood-10 .cloud,
+.node-teaser-big-picture.mood-10 .cloud{
 	background-image: url("../images/cloud-white-rain.png");
 }
 
-.node-teaser.mood-10 a{
+.node-teaser.mood-10 a,
+.node-teaser-big-picture.mood-10 a{
 	/*color: #CEF9FF;*/
 }
 
-.node-teaser.mood-10 .field-name-field-file {
+.node-teaser.mood-10 .field-name-field-file ,
+.node-teaser-big-picture.mood-10 .field-name-field-file {
 	top: 76px;
 }
 
-.node-teaser.mood-10 a:hover{
+.node-teaser.mood-10 a:hover,
+.node-teaser-big-picture.mood-10 a:hover{
 	/*color: #fff;*/
 }
 
-.node-teaser.mood-10 a.flag-action{
+.node-teaser.mood-10 a.flag-action,
+.node-teaser-big-picture.mood-10 a.flag-action{
 	position: absolute;
 	top: 0;
 	left: 222px;
 }
 
-.node-teaser.mood-10 a.unflag-action{
+.node-teaser.mood-10 a.unflag-action,
+.node-teaser-big-picture.mood-10 a.unflag-action{
 	position: absolute;
 	top:0;
 	left:223px;
