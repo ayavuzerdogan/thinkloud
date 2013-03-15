@@ -395,7 +395,10 @@ dl.user-profile-category{
 	background-color: #243546;
 	color: #cef9ff;
 	padding-left: 5px;
-	width: 219px;
+	/*width: 219px;*/
+	width: auto;
+	border: 1px solid #B9DDE0;
+	border-radius: 5px;
 }
 
 .field-name-ds-user-picture{
@@ -751,7 +754,8 @@ dl.user-profile-category{
 
 a.flag-action{
 	/*background-image: url(../images/like-button-off.png);*/
-	background-image: url(../images/net+.png);
+	/*background-image: url(../images/net+.png);*/
+	background-image: url(../images/net-like.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -763,7 +767,8 @@ a.flag-action{
 
 a.flag-action:hover{
 	/*background-image: url(../images/like-button-on.png);*/
-	background-image: url(../images/net+hover.png);
+	/*background-image: url(../images/net+hover.png);*/
+	background-image: url(../images/net-unlike.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -775,7 +780,8 @@ a.flag-action:hover{
 
 a.unflag-action{
 	/*background-image: url(../images/like-button-on.png);*/
-	background-image: url(../images/net-.png);
+	/*background-image: url(../images/net-.png);*/
+	background-image: url(../images/net-unlike.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
@@ -787,7 +793,8 @@ a.unflag-action{
 
 a.unflag-action:hover{
 	/*background-image: url(../images/like-button-off.png);*/
-	background-image: url(../images/net-hover.png);
+	/*background-image: url(../images/net-hover.png);*/
+	background-image: url(../images/net-like.png);
 	/*width: 60px;*/
 	width: 75px;
 	/*height: 70px;*/
