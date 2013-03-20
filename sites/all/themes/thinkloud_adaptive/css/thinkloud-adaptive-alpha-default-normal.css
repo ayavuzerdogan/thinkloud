@@ -19,3 +19,11 @@
 #volume-control{
 	left: 650px;
 }
+
+/*.container-24 */div.grid-8:last-of-type{
+	/*padding-left: 50px;*/
+}
+
+.grid-8 .form-text {
+	max-width: 300px;
+}

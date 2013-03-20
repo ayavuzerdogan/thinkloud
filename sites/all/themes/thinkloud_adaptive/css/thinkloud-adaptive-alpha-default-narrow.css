@@ -17,3 +17,16 @@
 	left: 350px;
 	top: 0px;
 }
+
+.user-edit.big-buttons{
+	margin-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	width: 72%;
+}
+
+.unread-messages.big-buttons{
+	margin-left: 0px;
+	margin-top: 10px;
+	width: 72%;
+}

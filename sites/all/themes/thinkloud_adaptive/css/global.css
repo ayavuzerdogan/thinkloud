@@ -164,80 +164,80 @@ li{
 	background-image: url("../images/cloud-white-main.png");
 }
 
-    .audio-download{
-	     display: none;
-     }
+	.audio-download{
+		 display: none;
+	 }
 
-    .node-teaser a,
+	.node-teaser a,
 .node-teaser-big-picture a{
-        color: #243546;
-	    background-color: transparent;
-	    background-image: none;
-    }
-    
-    .node-teaser a,
+		color: #243546;
+		background-color: transparent;
+		background-image: none;
+	}
+
+	.node-teaser a,
 .node-teaser-big-picture a:hover{
-        /*color: #0062A0;*/
-        background-color: transparent;
-	    background-image: none;
-    }
+		/*color: #0062A0;*/
+		background-color: transparent;
+		background-image: none;
+	}
 
 	.node-teaser .user-picture,
 .node-teaser-big-picture .user-picture{
 		float:left;
 	}
 
-    .node-teaser .link-wrapper,
+.node-teaser .link-wrapper,
 .node-teaser-big-picture .link-wrapper{
-	    font-size: 0.8em;
-    }
+		font-size: 0.8em;
+	}
 
-    .node-teaser .meta.submitted,
+.node-teaser .meta.submitted,
 .node-teaser-big-picture .meta.submitted{
-	    padding-left: 5px;
-	    padding-bottom: 2px;
-	    padding-top: 2px;
-	    position: relative;
-	    top: 30px;
-	    left: 128px;
-	    max-width:125px;
-	    height: 32px;
-    }
+		padding-left: 5px;
+		padding-bottom: 2px;
+		padding-top: 2px;
+		position: relative;
+		top: 30px;
+		left: 128px;
+		max-width:125px;
+		height: 32px;
+	}
 
-    .node-teaser .node-title,
+.node-teaser .node-title,
 .node-teaser-big-picture .node-title{
-	    position: relative;
-	    /*top: 59px;*/
-	    /*left:74px;*/
-	    max-width:380px;
-	    /*overflow: hidden;*/
-	    background-color: rgba(255, 255, 255, 0.506);
-	    /*display: inline-block;*/
-	    background-position: 5px 5px;
-	    background-repeat: no-repeat;
-	    border: 1px solid #B9DDE0;
-	    border-radius: 5px 5px 0 0;
-	    /*height: 32px;*/
-	    line-height: 32px;
-	    /*margin: 0px 10px 5px 20px;*/
-	    padding: 5px 5px 5px 5px;
-	    word-break: break-all;
-	    overflow: hidden;
-	    /*display: none;*/
-	    visibility: hidden;
-	    margin-bottom: 10px;
-    }
+		position: relative;
+		/*top: 59px;*/
+		/*left:74px;*/
+		max-width:380px;
+		/*overflow: hidden;*/
+		background-color: rgba(255, 255, 255, 0.506);
+		/*display: inline-block;*/
+		background-position: 5px 5px;
+		background-repeat: no-repeat;
+		border: 1px solid #B9DDE0;
+		border-radius: 5px 5px 0 0;
+		/*height: 32px;*/
+		line-height: 32px;
+		/*margin: 0px 10px 5px 20px;*/
+		padding: 5px 5px 5px 5px;
+		word-break: break-all;
+		overflow: hidden;
+		/*display: none;*/
+		visibility: hidden;
+		margin-bottom: 10px;
+	}
 
-    .node-teaser .field-name-field-file,
+.node-teaser .field-name-field-file,
 .node-teaser-big-picture .field-name-field-file{
-	    position: relative;
-	    top: 73px;
-	    left: 19px;
-	    width: 56px;
+		position: relative;
+		top: 73px;
+		left: 19px;
+		width: 56px;
 
-    }
+	}
 
-	.node-teaser .field-type-fivestar,
+.node-teaser .field-type-fivestar,
 .node-teaser-big-picture .field-type-fivestar{
 		left: 87px;
 		position: relative;
@@ -245,22 +245,22 @@ li{
 		width: 125px;
 	}
 
-    .node-teaser .link-wrapper,
+.node-teaser .link-wrapper,
 .node-teaser-big-picture .link-wrapper{
-	    position: relative;
-	    z-index: 99;
-	    top: -30px;
-	    left: 84px;
-	    max-width: 224px;
-    }
+		position: relative;
+		z-index: 99;
+		top: -30px;
+		left: 84px;
+		max-width: 224px;
+	}
 
-	    .node-teaser .link-wrapper li,
+.node-teaser .link-wrapper li,
 .node-teaser-big-picture .link-wrapper li{
-		    padding: 0;
-		    /*position: absolute;*/
-		    /*width: 30px;*/
-		    /*height: 30px;*/
-	    }
+			padding: 0;
+			/*position: absolute;*/
+			/*width: 30px;*/
+			/*height: 30px;*/
+		}
 .cloud-picture:hover{
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.506);
 }
@@ -271,11 +271,11 @@ li{
 	padding: 3px 3px 14px 3px;
 	border: 1px solid #D6D6D6;
 	margin-bottom: 5px;
-	-moz-transform: rotate(2deg);
-	-ms-transform: rotate(2deg);
-	-webkit-transform: rotate(2deg);
-	-o-transform: rotate(2deg);
-	transform: rotate(2deg);
+	/*-moz-transform: rotate(2deg);*/
+	/*-ms-transform: rotate(2deg);*/
+	/*-webkit-transform: rotate(2deg);*/
+	/*-o-transform: rotate(2deg);*/
+	/*transform: rotate(2deg);*/
 	position: relative;
 	left: -40px;
 }
@@ -287,20 +287,20 @@ li{
 	padding: 9px 9px 60px 9px;
 	border: 1px solid #D6D6D6;
 	margin-bottom: 5px;
-	-moz-transform: rotate(2deg); /* Для Firefox */
-	-ms-transform: rotate(2deg); /* Для IE */
-	-webkit-transform: rotate(2deg); /* Для Safari, Chrome, iOS */
-	-o-transform: rotate(2deg); /* Для Opera */
-	transform: rotate(2deg);
+	/*-moz-transform: rotate(2deg); *//* Для Firefox */
+	/*-ms-transform: rotate(2deg); *//* Для IE */
+	/*-webkit-transform: rotate(2deg); *//* Для Safari, Chrome, iOS */
+	/*-o-transform: rotate(2deg); *//* Для Opera */
+	/*transform: rotate(2deg);*/
 }
 
 .clip{
 	position: absolute;
 	top: -12px;
 	left: 21px;
-	background-image: url("../images/clip-4.png");
+	background-image: url("../images/clip-7.png");
 	width:14px;
-	height: 21px;
+	height: 22px;
 	z-index: 1;
 }
 .node-teaser .cloud-picture-wrapper img,
@@ -833,21 +833,46 @@ a.fake-active{
 	margin-bottom: -4px;
 }
 
-.new-message, .add-listener, .delete-listener{
+.new-message,
+/*.add-listener, */
+.unread-messages{
 	background-image: url("../images/message-button-empty.png");
 }
+
+.big-buttons.add-listener,
+.big-buttons.add-listener:hover{
+	background-image: url("../images/add-listener.png");
+	background-position: 10px 7px;
+}
+
+.big-buttons.delete-listener,
+.big-buttons.delete-listener:hover{
+	background-image: url("../images/delete-listener.png");
+	background-position: 10px 7px;
+}
+
+.unread-messages.big-buttons{
+	width:auto;
+	/*background-image: url("../images/unread-messages.png");*/
+	/*background-position: 10px 7px;*/
+}
+
+/*.unread-messages.big-buttons:hover{*/
+	/*background-image: url("../images/unread-messages-hover.png");*/
+/*}*/
 
 .user-edit.big-buttons{
 	background-image: url("../images/profile-edit.png");
 	background-position: 8px 7px;
+	width: auto;
 }
 
 .user-edit:hover{
 	background-image:  url("../images/profile-edit-hover.png");
 }
 .new-message:hover,
-.add-listener:hover,
-.delete-listener:hover{
+/*.add-listener:hover,*/
+.unread-messages:hover{
 	background-image: url("../images/message-button-fill_.png");
 }
 
