@@ -303,6 +303,20 @@ li{
 	height: 22px;
 	z-index: 1;
 }
+
+.node-teaser.mood-10 .clip{
+	background-image: url("../images/clip-7-white-2.png");
+}
+
+.node-teaser.mood-4 .clip,
+.node-teaser.mood-5 .clip{
+	background-image: url("../images/clip-7-blue.png");
+}
+
+.node-teaser.mood-8 .clip{
+	background-image: url("../images/clip-7-white-2.png");
+}
+
 .node-teaser .cloud-picture-wrapper img,
 .node-teaser-big-picture .cloud-picture-wrapper img{
 	z-index: 0;
@@ -949,3 +963,13 @@ a.fake-active{
 	/*-o-user-select: none;*/
 	/*user-select: none;*/
 /*}*/
+
+.node-teaser-big-picture .field-name-field-like .clearfix{
+	position: absolute;
+	font-size: 45px;
+	letter-spacing: -2px;
+	top: 32px;
+	left: 13px;
+	color: rgb(29, 173, 209);
+	text-shadow: 1px 2px 3px rgb(6, 83, 182);
+}
