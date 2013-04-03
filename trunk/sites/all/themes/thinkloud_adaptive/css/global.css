@@ -265,11 +265,11 @@ li{
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.506);
 }
 .node-teaser .cloud-picture{
-	background-image: url(../images/polaroid-bg-30.png);
+	background-image: url(../images/color-polaroid-bg-small.png);
 	width: 50px;
 	margin: 0 auto;
 	padding: 3px 3px 14px 3px;
-	border: 1px solid #D6D6D6;
+	/*border: 1px solid #D6D6D6;*/
 	margin-bottom: 5px;
 	/*-moz-transform: rotate(2deg);*/
 	/*-ms-transform: rotate(2deg);*/
@@ -281,11 +281,12 @@ li{
 }
 
 .node-teaser-big-picture .cloud-picture{
-	background-image: url(../images/polaroid-bg-30.png);
+	background-image: url(../images/color-polaroid-bg.png);
+	background-repeat: repeat-y;
 	width: 280px;
 	margin: 0 auto;
 	padding: 9px 9px 60px 9px;
-	border: 1px solid #D6D6D6;
+	/*border: 1px solid #D6D6D6;*/
 	margin-bottom: 5px;
 	/*-moz-transform: rotate(2deg); *//* Для Firefox */
 	/*-ms-transform: rotate(2deg); *//* Для IE */
