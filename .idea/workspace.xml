@@ -1,42 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" readonly="true" id="2d89b199-df3b-4b02-964f-21e757a116f2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC55F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC55F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC55F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC75F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC75F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC75F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN57F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN57F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN57F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN77F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN77F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN77F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS55F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS55F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS55F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS56F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS56F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS56F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS75F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS75F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS75F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS76F_W.eot" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS76F_W.ttf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS76F_W.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC55F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTC75F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN57F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTN77F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS55F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS56F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS75F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts/PTS76F_W.svg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info" />
+    <list default="true" readonly="true" id="2d89b199-df3b-4b02-964f-21e757a116f2" name="Default" comment="Добавлены шрифты PT Sans с поддержкой кирилицы">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php" afterPath="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="thinkloud.iws" />
@@ -45,9 +12,13 @@
     <file path="$PROJECT_DIR$/../nowlcms/sites/all/themes/nowlcms/js/date-selector.js" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1365677329545" ignored="false" />
     <file path="/fonts.css" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369823466146" ignored="false" />
     <file path="/thinkloud_adaptive.info" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369823883091" ignored="false" />
-    <file path="$USER_HOME$/AppData/Local/Temp/scp57150/new/sites/all/themes/develix/templates/node/node--pageproduct.tpl.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369830152811" ignored="false" />
-    <file path="/node--pageproduct.tpl.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369830143596" ignored="false" />
+    <file path="$USER_HOME$/AppData/Local/Temp/scp57150/new/sites/all/themes/develix/templates/node/node--pageproduct.tpl.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369830375010" ignored="false" />
+    <file path="/node--pageproduct.tpl.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369830375010" ignored="false" />
     <file path="/script.js" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369829044002" ignored="false" />
+    <file path="/Dummy.txt" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369837492867" ignored="false" />
+    <file path="/webform-form-120.tpl.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1369830751180" ignored="false" />
+    <file path="/global.css" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1370338455206" ignored="false" />
+    <file path="/template.php" changelist="2d89b199-df3b-4b02-964f-21e757a116f2" time="1370344425814" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="template.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="66" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0">
+            <state line="71" column="57" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.545565">
               <folding />
             </state>
           </provider>
@@ -101,25 +72,25 @@
       <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+            <state line="976" column="4" selection-start="20112" selection-end="20112" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user-profile.tpl.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/user-profile.tpl.php">
+      <file leaf-file-name="comment.tpl.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/comment.tpl.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="30" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.65384614">
+            <state line="88" column="0" selection-start="3513" selection-end="3513" vertical-scroll-proportion="-17.115385">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="thinkloud_adaptive.info" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="thinkloud_adaptive.info" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="86" column="50" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.49941108">
+            <state line="86" column="50" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -135,22 +106,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/css/layout.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page--front.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/template.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/templates/page.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud/css/style.css" />
-        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/thinkloud/thinkloud.module" />
         <option value="$PROJECT_DIR$/sites/all/libraries/player/soundmanager2/script/soundmanager2.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/thinkloud-adaptive-alpha-default-wide.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/scripts/script.js" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/user-profile.tpl.php" />
         <option value="$PROJECT_DIR$/sites/all/modules/audiorecorderfield/js/audiorecorder_soundcloud.js" />
-        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts.css" />
         <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info" />
         <option value="$USER_HOME$/AppData/Local/Temp/scp53959/new/sites/all/themes/develix/js/script.js" />
+        <option value="$USER_HOME$/AppData/Local/Temp/scp17863/new/sites/all/themes/develix/templates/theme/webform-form-120.tpl.php" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css" />
+        <option value="$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php" />
       </list>
     </option>
   </component>
@@ -373,6 +344,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkloud" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sites" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="all" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="thinkloud_adaptive" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -471,6 +472,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\new\projects\thinkloud\sites\all\themes\thinkloud_adaptive\images" />
       <recent name="D:\new\projects\thinkloud\sites\all\themes\thinkloud_adaptive\css" />
       <recent name="D:\new\projects\thinkloud\sites\all\themes\thinkloud_adaptive\css\fonts" />
       <recent name="C:\Users\sitdikov\PhpstormProjects\thinkloud\sites\all\themes\thinkloud_adaptive\images" />
@@ -617,7 +619,15 @@
       <created>1362489298128</created>
       <updated>1362489298128</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавлены шрифты PT Sans с поддержкой кирилицы">
+      <created>1369830371129</created>
+      <updated>1369830371129</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Удалены стили блока с биографией">
+      <created>1369837501103</created>
+      <updated>1369837501103</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -628,9 +638,9 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289183" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20992367" sideWeight="0.25962597" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21501273" sideWeight="0.26072606" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.7029703" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20992367" sideWeight="0.73157316" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21501273" sideWeight="0.73157316" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
@@ -689,7 +699,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="добавлен наклон div с фотографией" />
+    <option name="LAST_COMMIT_MESSAGE" value="Удалены стили блока с биографией" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -715,31 +725,45 @@
     <MESSAGE value="first commit volume controll" />
     <MESSAGE value="node name js update" />
     <MESSAGE value="добавлен наклон div с фотографией" />
+    <MESSAGE value="Добавлены шрифты PT Sans с поддержкой кирилицы" />
+    <MESSAGE value="Удалены стили блока с биографией" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/thinkloud-adaptive-alpha-default-narrow.css">
+    <entry file="file://$PROJECT_DIR$/themes/bartik/bartik.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="1" selection-start="711" selection-end="711" vertical-scroll-proportion="0.0" />
+        <state line="7" column="0" selection-start="123" selection-end="158" vertical-scroll-proportion="0.13805105" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/thinkloud-adaptive-alpha-default-normal.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="377" selection-end="377" vertical-scroll-proportion="0.0" />
+        <state line="6" column="35" selection-start="330" selection-end="330" vertical-scroll-proportion="0.11724138" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/thinkloud-adaptive-alpha-default-wide.css">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0">
+        <state line="86" column="50" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/user-profile.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="66" selection-start="2021" selection-end="2021" vertical-scroll-proportion="0.0">
+        <state line="1" column="30" selection-start="31" selection-end="31" vertical-scroll-proportion="0.020334927" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="976" column="4" selection-start="20112" selection-end="20112" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/comment.tpl.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="0" selection-start="3513" selection-end="3513" vertical-scroll-proportion="-17.115385">
           <folding />
         </state>
       </provider>
@@ -751,81 +775,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/libraries/player/soundmanager2/demo/360-player/script/360player.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp04965/new/sites/all/themes/develix/js/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="19" selection-start="817" selection-end="817" vertical-scroll-proportion="0.0">
+        <state line="24" column="17" selection-start="953" selection-end="953" vertical-scroll-proportion="0.47331786">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/audiorecorderfield/js/audiorecorder_soundcloud.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp12069/new/sites/all/modules/techno/techno.page.inc">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="10" selection-start="100" selection-end="108" vertical-scroll-proportion="0.0">
+        <state line="22" column="43" selection-start="472" selection-end="472" vertical-scroll-proportion="-0.34210527">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/audiorecorderfield/recorders/recorder.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp14181/new/sites/all/themes/develix/templates/node/node.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="169" column="33" selection-start="5476" selection-end="5476" vertical-scroll-proportion="0.0">
+        <state line="99" column="12" selection-start="5101" selection-end="5101" vertical-scroll-proportion="0.34569377">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/audiorecorderfield/js/recorder.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp15717/new/sites/all/themes/develix/templates/theme/page-catalog-products.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="38" selection-start="1325" selection-end="1325" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1349095712689" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/modules/votingapi/votingapi.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="654" vertical-scroll-proportion="0.0">
+        <state line="37" column="12" selection-start="1094" selection-end="1094" vertical-scroll-proportion="0.75239235">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/themes/bartik/bartik.info">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp25661/etc/httpd/conf/httpd.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="123" selection-end="158" vertical-scroll-proportion="0.13805105">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-2.9640372">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/fonts.css">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp15429/new/sites/all/themes/develix/templates/theme/techno-product-price-form.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="35" selection-start="330" selection-end="330" vertical-scroll-proportion="0.11724138">
+        <state line="40" column="36" selection-start="1385" selection-end="1385" vertical-scroll-proportion="0.8262454">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp53959/new/sites/all/themes/develix/js/script.js">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp05166/new/sites/all/themes/develix/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="25" selection-start="2705" selection-end="2717" vertical-scroll-proportion="0.67270666">
+        <state line="42" column="32" selection-start="1191" selection-end="1191" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/css/global.css">
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/scp12342/new/sites/all/themes/develix/templates/node/node--pageproduct.tpl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="40" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+        <state line="110" column="44" selection-start="5226" selection-end="5226" vertical-scroll-proportion="-0.56986636">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/templates/user-profile.tpl.php">
+    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/template.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="30" selection-start="31" selection-end="31" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sites/all/themes/thinkloud_adaptive/thinkloud_adaptive.info">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="86" column="50" selection-start="3618" selection-end="3618" vertical-scroll-proportion="0.49941108">
+        <state line="71" column="57" selection-start="3218" selection-end="3218" vertical-scroll-proportion="0.545565">
           <folding />
         </state>
       </provider>

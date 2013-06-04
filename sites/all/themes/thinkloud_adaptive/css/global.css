@@ -991,3 +991,16 @@ a.fake-active{
 	width:auto;
 	float: left;
 }
+
+.pane-node-field-tags .field-item a{
+	border-radius: 3px;
+	color: #fff;
+	background-image: url("../images/granular_bg___.png");
+	padding: 1px 5px; margin-left: 10px;
+	background-position: 150px 20px;
+	line-height: 1;
+}
+
+.pane-node-field-tags .field-item a:hover{
+	background-image: url("../images/granular_bg_.png");
+}
