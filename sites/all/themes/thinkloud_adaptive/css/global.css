@@ -24,6 +24,10 @@ h1,h2{
 	color: #243546;
 }
 
+.clear{
+	clear: both;
+}
+
 /*links styles*/
 a,
 a:link,
@@ -39,6 +43,7 @@ dl.user-profile-category a:hover{
 	background-color: #cef9ff;
 	background-image: url(../images/link-pattern.png);
 }
+/*end of links */
 
 li{
 	list-style: none;
@@ -47,6 +52,12 @@ li{
 .grid-8 .form-textarea,
 .grid-8 .form-text{
 	max-width: 380px;
+}
+
+input.form-text,
+textarea.form-textarea{
+	opacity: 0.6;
+	border-radius: 5px;
 }
 
 .node-teaser .link-wrapper a,
@@ -141,6 +152,10 @@ li{
 
 .region.region-page-bottom{
 	min-height: 0px;
+}
+
+.region-footer-second{
+	background-color: #0E151C;
 }
 
 /*teaser*/
@@ -451,6 +466,9 @@ dl.user-profile-category{
 
 
 /* ----------------- Comments ----------------- */
+#comment-wrapper{
+	margin-top: 25px;
+}
 
 .comment h2.title {
 	margin-bottom: 1em;
@@ -739,7 +757,29 @@ dl.user-profile-category{
 
 /*full node*/
 #node-menu ul li{
-	float:none;
+	/*float:none;*/
+}
+
+.menu-name-menu-node-main-links ul{
+	margin:0 auto;
+}
+
+.menu-name-menu-node-main-links ul.menu li{
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.menu-name-menu-node-main-links ul.menu li a{
+	line-height: 1.5;
+}
+
+.pane-entity-view .node-record .node-title{
+	visibility: visible;
+}
+
+.pane-entity-view .node-record{
+	border: 1px dashed #45C5EC;
 }
 
 /*activity*/
@@ -992,15 +1032,24 @@ a.fake-active{
 	float: left;
 }
 
-.pane-node-field-tags .field-item a{
+.pane-node-field-tags .field-item a,
+.node-record .meta.submitted a.username,
+.menu-name-menu-node-main-links a{
 	border-radius: 3px;
 	color: #fff;
 	background-image: url("../images/granular_bg___.png");
-	padding: 1px 5px; margin-left: 10px;
+	padding: 1px 5px;
+	margin-left: 10px;
 	background-position: 150px 20px;
 	line-height: 1;
 }
 
-.pane-node-field-tags .field-item a:hover{
+.node-record .meta.submitted a.username{
+	margin-left: 0;
+}
+
+.pane-node-field-tags .field-item a:hover,
+.node-record .meta.submitted a.username:hover,
+.menu-name-menu-node-main-links a:hover{
 	background-image: url("../images/granular_bg_.png");
 }
