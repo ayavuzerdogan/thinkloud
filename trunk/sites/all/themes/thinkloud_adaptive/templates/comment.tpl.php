@@ -67,9 +67,9 @@
       <p class="commenter-name">
         <?php print $author; ?>
       </p>
-      <p class="comment-time">
-        <?php print $created; ?>
-      </p>
+<!--      <p class="comment-time">-->
+<!--        --><?php //print $created; ?>
+<!--      </p>-->
       <p class="comment-permalink">
         <?php print $permalink; ?>
       </p>
@@ -83,9 +83,9 @@
       <span class="new"><?php print $new; ?></span>
     <?php endif; ?>
 
-    <?php print render($title_prefix); ?>
-    <h3<?php print $title_attributes; ?>><?php print $title; ?></h3>
-    <?php print render($title_suffix); ?>
+<!--    --><?php //print render($title_prefix); ?>
+<!--    <h3--><?php //print $title_attributes; ?><?php //print $title; ?><!--</h3>-->
+<!--    --><?php //print render($title_suffix); ?>
 
     <div class="content"<?php print $content_attributes; ?>>
       <?php
@@ -93,6 +93,9 @@
         hide($content['links']);
         print render($content);
       ?>
+	    <div class="comment-time">
+		    <?php print $created; ?>
+	    </div>
       <?php if ($signature): ?>
       <div class="user-signature clearfix">
         <?php print $signature; ?>

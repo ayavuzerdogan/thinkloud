@@ -1,6 +1,27 @@
 /* This file will hold styles for the mobile version of your website (mobile first). */
 /* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
 
+/*GO!GO! dirty hacks!*/
+HTML, BODY {
+	height: 100%;
+}
+
+#page {
+	min-height: 100%;
+	position: relative;
+}
+
+#section-content {
+	padding-bottom: 272px;
+}
+
+#section-footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 272px;
+}
+
 /*custom!*/
 *{
 	color: #243546;
@@ -40,8 +61,14 @@ a.active,
 a.privatemsg-send-link-profile:hover,
 dl.user-profile-category a:hover{
 	color: #243546;
-	background-color: #cef9ff;
-	background-image: url(../images/link-pattern.png);
+	/*background-color: #cef9ff;*/
+	/*background-image: url(../images/link-pattern.png);*/
+}
+
+h2 a:hover,
+.user-nameplate a.username:hover{
+	border-bottom: 1px dashed;
+	background: none;
 }
 /*end of links */
 
@@ -418,6 +445,10 @@ dl.user-profile-category{
 		font-style: normal;
 	}
 /*headers*/
+#section-header{
+	margin-bottom: 25px;
+}
+
 .inside h3{
 	margin:0;
 	color: #243546;
@@ -780,6 +811,45 @@ dl.user-profile-category{
 
 .pane-entity-view .node-record{
 	border: 1px dashed #45C5EC;
+}
+
+.node-additional-links a{
+	float: left;
+	width: 50%;
+	text-align: center;
+	background-image: url("../images/granular_bg___.png");
+	line-height: 2;
+	color: white;
+}
+
+.node-additional-links a:hover{
+	background-image: url("../images/granular_bg_.png");
+}
+
+.node-additional-links a.access{
+	border-radius: 0 0 0 5px;
+	/*border-right: 1px dashed #45C5EC;*/
+}
+
+.node-additional-links a.edit{
+	border-radius: 0 0 5px 0;
+}
+
+.node-additional-links{
+	position: relative;
+	bottom: 0;
+	width: 100%;
+	border-top: 1px dashed #45C5EC;
+}
+
+.datetime{
+	font-size: 24px;
+	width: 100%;
+	text-align: right;
+}
+
+.field-name-field-tags{
+	margin-top: 15px;
 }
 
 /*activity*/

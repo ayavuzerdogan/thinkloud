@@ -77,6 +77,7 @@
  * @see template_preprocess_node()
  * @see template_process()
  */
+global $user;
 ?>
 <div id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix  <?php if (!empty($node->field_mood['und'][0]['tid'])) print 'mood-'.$node->field_mood['und'][0]['tid']?>"<?php print $attributes; ?>>
 
@@ -84,6 +85,7 @@
 	<?php if (!$page): ?>
 	<h2<?php print $title_attributes; ?>>
 		<a href="<?php print $node_url; ?>"><?php print $title; ?></a>
+<!--		&nbsp;&nbsp;&nbsp;_<span class="datetime">--><?php //print format_date($node->created, 'custom', 'd/m/y h:ia');?><!--</span>_-->
 	</h2>
 	<?php endif; ?>
 	<?php print render($title_suffix); ?>
@@ -129,6 +131,12 @@
 			'path' => $node->field_picture['und'][0]['uri']));
 			?>
 		</div>
+	</div>
+	<?php endif?>
+	<?php if ($node->uid == $user->uid):?>
+	<div class="node-additional-links">
+		<a href="/node/<?php print $node->nid?>/access" class="access">Access</a>
+		<a href="/node/<?php print $node->nid?>/edit" class="edit">Edit</a>
 	</div>
 	<?php endif?>
 </div>
