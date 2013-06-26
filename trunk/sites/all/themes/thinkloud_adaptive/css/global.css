@@ -820,6 +820,7 @@ dl.user-profile-category{
 	background-image: url("../images/granular_bg___.png");
 	line-height: 2;
 	color: white;
+	background-position: 210px 133px;
 }
 
 .node-additional-links a:hover{
