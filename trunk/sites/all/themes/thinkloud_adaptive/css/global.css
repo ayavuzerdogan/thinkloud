@@ -12,14 +12,14 @@ HTML, BODY {
 }
 
 #section-content {
-	padding-bottom: 272px;
+	padding-bottom: 270px;
 }
 
 #section-footer {
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-	height: 272px;
+	height: 270px;
 }
 
 /*custom!*/
@@ -817,19 +817,22 @@ dl.user-profile-category{
 	float: left;
 	width: 50%;
 	text-align: center;
-	background-image: url("../images/granular_bg___.png");
+	/*background-image: url("../images/granular_bg___.png");*/
 	line-height: 2;
-	color: white;
+	/*color: white;*/
 	background-position: 210px 133px;
+	background-color: rgba(255, 255, 255, 0.506);
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
 }
 
-.node-additional-links a:hover{
-	background-image: url("../images/granular_bg_.png");
-}
+/*.node-additional-links a:hover{*/
+	/*background-image: url("../images/granular_bg_.png");*/
+/*}*/
 
 .node-additional-links a.access{
 	border-radius: 0 0 0 5px;
-	/*border-right: 1px dashed #45C5EC;*/
+	border-right: 1px dashed #45C5EC;
 }
 
 .node-additional-links a.edit{
