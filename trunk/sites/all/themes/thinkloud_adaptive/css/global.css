@@ -33,6 +33,7 @@ body{
 	/*font-family: "Ubuntu Condensed";*/
 	font-size: 1.2em;
 	background-image: url('../images/cloud-bg.png');
+	background-attachment: fixed;
 	background-color:#cef9ff;
 }
 
@@ -974,16 +975,24 @@ a.fake-active{
 	background-image: url("../images/message-button-empty.png");
 }
 
-.big-buttons.add-listener,
-.big-buttons.add-listener:hover{
-	background-image: url("../images/add-listener.png");
-	background-position: 10px 7px;
+.big-buttons.add-listener{
+	background-image: url("../images/add-listener__.png");
+	background-position: 10px;
+	padding: 5px 5px 5px 42px;
 }
 
-.big-buttons.delete-listener,
+.big-buttons.add-listener:hover{
+	background-image: url("../images/add-listener_hover_.png");
+}
+
+.big-buttons.delete-listener{
+	background-image: url("../images/delete-listener__.png");
+	background-position: 10px;
+	padding: 5px 5px 5px 42px;
+}
+
 .big-buttons.delete-listener:hover{
-	background-image: url("../images/delete-listener.png");
-	background-position: 10px 7px;
+	background-image: url("../images/delete-listener_hover_.png");
 }
 
 .unread-messages.big-buttons{
