@@ -88,9 +88,9 @@
 <div id="page-wrapper"><div id="page">
 
 		<div id="header" class="<?php print $secondary_menu ? 'with-secondary-menu': 'without-secondary-menu'; ?>"><div class="section clearfix">
-				<a href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>" rel="home" id="logo">
-					<img src="/sites/all/themes/thinkloud/logo.png" alt="<?php print t('Home'); ?>" />
-				</a>
+<!--				<a href="--><?php //print $front_page; ?><!--" title="--><?php //print t('Home'); ?><!--" rel="home" id="logo">-->
+<!--					<img src="/sites/all/themes/thinkloud/logo.png" alt="--><?php //print t('Home'); ?><!--" />-->
+<!--				</a>-->
 
 				<?php if ($site_name || $site_slogan): ?>
 					<div id="name-and-slogan"<?php if ($hide_site_name && $hide_site_slogan) { print ' class="element-invisible"'; } ?>>
@@ -155,13 +155,13 @@
 					<!-- /#secondary-menu -->
 				<?php endif; ?>
 
-				<?php if ($tabs['#primary']):?>
-					<div id="primary-tabs">
-						<ul>
-							<?php print render($tabs['#primary']); ?>
-						</ul>
-					</div>
-				<?php endif;?>
+<!--				--><?php //if ($tabs['#primary']):?>
+<!--					<div id="page-title">-->
+<!--						<ul>-->
+<!--							--><?php //print render($tabs['#primary']); ?>
+<!--						</ul>-->
+<!--					</div>-->
+<!--				--><?php //endif;?>
 			</div>
 		</div>
 
@@ -208,11 +208,11 @@
 						<?php endif; ?>
 						<a id="main-content"></a>
 						<?php print render($title_prefix); ?>
-						<?php if ($title): ?>
-							<h1 class="title" id="page-title">
-								<?php print $title; ?>
-							</h1>
-						<?php endif; ?>
+<!--						--><?php //if ($title): ?>
+<!--							<h1 class="title" id="page-title">-->
+<!--								--><?php //print $title; ?>
+<!--							</h1>-->
+<!--						--><?php //endif; ?>
 						<?php print render($title_suffix); ?>
 						<!--				--><?php //if ($tabs): ?>
 						<!--					<div class="tabs">-->
